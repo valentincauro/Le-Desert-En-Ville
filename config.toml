@@ -1,11 +1,8 @@
-baseURL = "/"
-title = "My New Hugo Site"
+baseURL = "http://www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com/"
+title = "le Désert en Ville — Espace de Création Hors-sol"
 theme = "LDEV_theme"
-relativeURLs = true
-disableKinds = ["sitemap"]
+canonifyURLs = true
 
-[permalinks]
-  post = ":title/"
 
 [[menu.main]]
     name = "CRÉATIONS"
