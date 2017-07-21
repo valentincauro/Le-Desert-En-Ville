@@ -1,0 +1,11 @@
+{{ $url := .File.BaseFileName | printf "/images/%s" }}
+{{ $folder := .File.BaseFileName | printf "/static/images/%s" }}
+{{ $files :=  readDir $folder }}
+<div>
+  {{ range $files }}
+  <figure>
+      <img src="{{$url}}/{{.Name | urlize }}">
+    </a>
+  </figure>
+  {{ end }}
+</div>

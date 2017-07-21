@@ -1,0 +1,31 @@
+baseURL = "/"
+title = "My New Hugo Site"
+theme = "LDEV_theme"
+relativeURLs = true
+disableKinds = ["sitemap"]
+
+[permalinks]
+  post = ":title/"
+
+[[menu.main]]
+    name = "CRÉATIONS"
+    weight = 1
+	url = "/creations/lettres-vives/"
+
+[[menu.main]]
+    name = "ATELIERS"
+    weight = 2
+	url = "/ateliers/"
+
+[[menu.main]]
+    name = "VOYAGEURS"
+    weight = 3
+	url = "/voyageurs/"
+
+[[menu.main]]
+    name = "CONTACT"
+    weight = 4
+	url = "/about/"
+
+
+[[menu.crea]]

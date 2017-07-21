@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	{{ partial "head.html" .}}
+	<script>
+ 	 $(document).ready(function(){
+    	// Target your .container, .wrapper, .post, etc.
+   	 $(".video").fitVids();
+  	});
+		</script>
+
+  <body>
+
+    <div class="container">
+	    
+	    {{ partial "header.html" .}}
+
+		<main>
+		  	<nav class="menucrea">
+
+		        {{ $currentPage := . }}
+		        {{ range .Site.Menus.crea }}
+
+				<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}"><h1>{{ .Name }}</h1></a>
+
+		        {{ end }} 
+		        <h2>{{ .Params.soustitre }}</h2>
+		        <hr>
+
+
+
+		    </nav>
+
+	   		 <div class="sidebar">
+
+	   		 	{{ .Content }}
+	   		 	
+
+			</div>
+
+			<div class="content">
+
+				{{ if .Params.vimeo }}
+					<div class="video">
+					  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				{{ end }}
+
+				{{ partial "gallery.html" .}}
+
+
+			</div>
+
+	    </div>
+
+</main>
+    		{{ partial "footer.html" .}}
+
+  </body>
+
+</html>

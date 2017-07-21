@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	{{ partial "head.html" .}}
+
+  <body>
+
+    <div class="container">
+	    
+	    {{ partial "header.html" .}}
+
+	    <main>
+
+		    <div class="ateliernav">
+		    	<a href="/ateliers/"><span class="back"></span></a>
+		    	<h1>{{ .Title }}</h1>
+		    	<h2>{{ .Params.soustitre }}</h2>
+		    	<hr>
+
+		    </div>
+
+	   		<div class="sidebar">
+
+	   			{{ .Content }}
+
+			</div>
+
+			<div class="content">
+
+			{{ if .Params.svg }}
+				{{ partial .Params.svg }}
+			{{ end }}
+
+
+			</div>
+
+		</main>
+
+    </div>
+
+
+    		{{ partial "footer.html" .}}
+
+  </body>
+
+</html>

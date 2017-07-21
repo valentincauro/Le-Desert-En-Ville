@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" .}}
+    <script>
+      $(function() {
+        $.scrollify({
+          section : ".scrollify",
+        });
+      });
+    </script>
+  <body>
+    
+    <div class="hp">
+      <section class="home-1 scrollify">
+          <div class="intro-1">
+            <h1>
+              <a href="/creations/lettres-vives/">
+                <img class="logo" src="/images/ldevlogoblanc.svg">
+              </a>
+            </h1>
+            <h2>Compagnie d'Art Vivant</h2>
+            <h3>
+              <nav class="menu">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <a class="buttonblanc {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+                {{ end }}
+                </nav>
+            </h3>
+            <a href="#2" class="scroll" onclick="location.reload()"></a>
+          </div>
+      </section>
+
+      <section class="home-2 scrollify">
+    
+        <div class="intro-2">
+
+            <a href="/creations/lettres-vives/">
+              <img class="logo" src="/images/ldevlogonoir.svg">
+            </a>
+
+          <div class="texteintro">
+
+            <div class="w50 txtleft inbl pam">
+              <p>
+                {{ .Params.diapo1 }}
+              </p>
+            </div>
+
+            <div class="w30 txtcenter inbl pam valigncentre">
+
+              <nav class="menu">
+                  {{ $currentPage := . }}
+                  {{ range .Site.Menus.main }}
+                  <a class="buttonblack" href="{{.URL}}">{{ .Name }}</a>
+                  {{ end }}
+              </nav>
+            </div>
+          </div>
+
+          <a href="#3" class="scroll" onclick="location.reload()"></a>
+
+        </div>
+
+      </section>
+
+      <section class="home-3 scrollify">
+
+        <div class="intro-3">
+
+          <a href="/creations/lettres-vives/">
+            <img class="logo" src="/images/ldevlogoblanc.svg">
+          </a>
+
+          <div class="texteintro">
+
+            <div class="w30 txtright inbl pam valigncentre">
+
+              <nav class="menu">
+                  {{ $currentPage := . }}
+                  {{ range .Site.Menus.main }}
+                  <a class="buttonblack" href="{{.URL}}">{{ .Name }}</a>
+                  {{ end }}
+              </nav>
+            </div>
+
+                <div class="w50 txtleft inbl pam valigncentre">
+              <p>
+                {{ .Params.diapo2 }}
+              </p>
+            </div>
+
+          </div>
+
+
+          <a href="#1" class="scroll" onclick="location.reload()"></a>
+
+        </div>
+
+      </section>
+    </div>
+  </body>
+</html>
