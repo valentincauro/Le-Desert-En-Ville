@@ -435,6 +435,58 @@ footer:before{
 	max-width: 1050px;
 }
 
+.footer-col{
+	vertical-align: top;
+	margin:0 40px;
+    display: inline-block;
+	color:#fff;
+	list-style: none;
+	padding-left:0;
+}
+
+.footer ul{
+	list-style: none;
+	padding-left:0;
+}
+
+.footer li{
+}
+
+.footer ul>li>a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	transition: .2s
+}
+
+.footer ul>li>a:hover{
+	font-family: 'Montserrat', sans-serif;
+	color:#B5B5B5;
+	font-size:12px;
+}
+
+.footer .footer-prim{
+	margin-bottom:.7em;
+}
+
+.footer .footer-prim a{
+	text-decoration: none;
+	color:#B5B5B5;
+	text-transform: uppercase;
+
+}
+
+.footer .footer-sub a{
+	text-decoration: none;
+	color:#6C6C6C;
+	text-transform: uppercase;
+	margin-left:0;
+	margin: 2px 0;
+
+}
+
+.menucrea{
+	padding-left:10px;
+}
 
 a.menucrea-item.active{
 	animation-delay: -3s;
@@ -442,7 +494,6 @@ a.menucrea-item.active{
 	float:left;
 	color: #C64F24 !important; 
 	margin-right:25%;
-	padding:0;
 	padding-top:0;
 }
 

@@ -1,20 +1,21 @@
 <footer>
 	<div class= "footer">
-  <ul class="footer-content">
-  
-    {{ range .Site.Menus.principal }}
-        <a href="{{ .URL }}">
-          <li>{{ .Name }}</li>
-        </a>
-          <ul class="sub">
-            {{ range .Children }}
+    <div class="footer-content">
 
-              <a href="{{ .URL }}">
-                <li>{{ .Name }}</li>
-              </a>
-              
-            {{ end }}
-          </ul>
+    {{ range .Site.Menus.principal }}
+
+
+        <ul class="footer-col">
+
+          <li class="footer-prim"><a href="{{ .URL }}">{{ .Name }}</a></li>
+            
+            <ul>
+              {{ range .Children }}
+                <li class="footer-sub"><a href="{{ .URL }}">{{ .Name }}</a></li>          
+              {{ end }}
+            </ul>
+
+        </ul>
 
     {{ end }}
     </ul>
