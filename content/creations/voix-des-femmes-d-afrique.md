@@ -5,7 +5,8 @@ soustitre = "Récital poétique/Concert"
 weight = "2"
 vimeo = "188274638"
 url = "/creations/voix-des-femmes-d-afrique/"
-
+[menu.principal]
+parent = "creations"
 [menu.crea]
 
 +++

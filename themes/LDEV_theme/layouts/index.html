@@ -22,8 +22,8 @@
             <h3>
               <nav class="menu">
                 {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
-                <a class="buttonblanc {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+                {{ range .Site.Menus.principal }}
+                <a class="buttonblanc {{if or ($currentPage.IsMenuCurrent "principal" .) ($currentPage.HasMenuCurrent "principal" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
                 {{ end }}
                 </nav>
             </h3>

@@ -2,6 +2,8 @@
 title = "Ateliers test"
 soustitre = "FAM Sainte-Geneviève, Paris"
 weight = "3"
+[menu.principal]
+parent = "ateliers"
 
 +++
 

@@ -1,37 +1,22 @@
 <footer>
-	<div class= "footer-content">
+	<div class= "footer">
+  <ul class="footer-content">
+  
+    {{ range .Site.Menus.principal }}
+        <a href="{{ .URL }}">
+          <li>{{ .Name }}</li>
+        </a>
+          <ul class="sub">
+            {{ range .Children }}
 
-    <div id="sidebar" class="nav-collapse">
-        <!-- sidebar menu start-->
-        <ul class="sidebar-menu">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.footer }}
-              {{ if .HasChildren }}
+              <a href="{{ .URL }}">
+                <li>{{ .Name }}</li>
+              </a>
+              
+            {{ end }}
+          </ul>
 
-            <li class="sub-menu{{if $currentPage.HasMenuCurrent "footer" . }} active{{end}}">
-            <a href="javascript:;" class="">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-                <span class="menu-arrow arrow_carrot-right"></span>
-            </a>
-            <ul class="sub">
-                {{ range .Children }}
-                <li{{if $currentPage.IsMenuCurrent "footer" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-                {{ end }}
-            </ul>
-          {{else}}
-            <li>
-            <a href="{{.URL}}">
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
-            </a>
-          {{end}}
-          </li>
-          {{end}}
-
-        </ul>
-        <!-- sidebar menu end-->
-    </div>
-
+    {{ end }}
+    </ul>
 	</div>
 </footer>

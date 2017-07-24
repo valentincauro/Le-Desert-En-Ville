@@ -335,6 +335,7 @@ h1,h2,h3,h4,p{
 }
 
 .logoheader{
+	transform:scale(.9);
 	margin-left: 10px;
 	vertical-align: bottom;
 	display: inline-block;
@@ -366,6 +367,7 @@ header{
 }
 
 .menu-item{
+	text-transform: uppercase;
 	vertical-align: top;
 	display: inline-block;
 	padding:10px 20px;
@@ -433,10 +435,6 @@ footer:before{
 	max-width: 1050px;
 }
 
-.menucrea{
-	padding:10px;
-	margin-top:-30px;
-}
 
 a.menucrea-item.active{
 	animation-delay: -3s;
@@ -446,8 +444,6 @@ a.menucrea-item.active{
 	margin-right:25%;
 	padding:0;
 	padding-top:0;
-	transform: translateY(30px);
-
 }
 
 a.menucrea-item.active:hover{
@@ -455,35 +451,38 @@ a.menucrea-item.active:hover{
 }
 
 a.menucrea-item{
+	color:gray;
 	text-decoration: none;
 	display: inline-block;
 	transition: transform .2s ease;
 	transition-delay: 10ms;
 	position: relative;
 	animation: apparition 1s;
-	padding-top:30px;
 	margin:0;
 	margin-right:100px;
-	transform: translateY(-30px);
 }
 
 a.menucrea-item h1 {
+	margin-bottom: 0;
 	transition: .3s;
 
 }
 
+a.menucrea-item:empty {display:none;}
+
+
 a.menucrea-item:hover h1 {
 	color: #000; 
-	transform:translateY(20px);
 	transition: .3s;
 
 }
 
 .menucrea h2{
+	clear:left;
 	display: block;
 	font-weight: 300;
 	font-size: 16px;
-	margin-top: -15px;
+	margin-top: -20px;
 	font-family: 'Spectral', serif;
 	font-style: normal;
 }
@@ -498,10 +497,11 @@ a.menucrea-item:hover h1 {
 }
 
 .sidebar p{
+	text-align:justify;
 	font-family: 'Spectral', serif;
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: 200;
-	line-height: 1.9em;
+	line-height: 1.7em;
 	margin-bottom: 2em;
 }
 
@@ -555,7 +555,7 @@ a.menucrea-item:hover h1 {
 main{
 	display: inline-block;
 	width:100%;
-	margin: 60px 0;
+	margin: 20px 0;
 	padding: 20px;
 }
 

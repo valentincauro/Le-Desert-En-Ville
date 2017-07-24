@@ -3,6 +3,8 @@ title = "Du souffle intîme au corps poétique"
 soustitre = "Hôpital psychiatrique de Saint Alban"
 weight = "1"
 svg = "souffleintime"
+[menu.principal]
+parent = "ateliers"
 
 +++
 

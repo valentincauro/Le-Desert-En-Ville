@@ -22,7 +22,6 @@
 		        {{ range .Site.Menus.crea }}
 
 				<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}"><h1>{{ .Name }}</h1></a>
-
 		        {{ end }} 
 		        <h2>{{ .Params.soustitre }}</h2>
 		        <hr>

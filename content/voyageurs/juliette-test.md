@@ -3,6 +3,8 @@
 title = "Juliette Test"
 fonction = ""
 weight = "3"
+[menu.principal]
+parent = "voyageurs"
 
 +++
 

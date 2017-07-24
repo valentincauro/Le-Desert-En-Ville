@@ -3,6 +3,8 @@
 title = "Simon Winsé"
 fonction = "Musicien"
 weight = "2"
+[menu.principal]
+parent = "voyageurs"
 
 +++
 

@@ -2,6 +2,8 @@
 title = "Du souffle intîme TEST"
 soustitre = "Hôpital psychiatrique de Saint Alban"
 weight = "2"
+[menu.principal]
+parent = "ateliers"
 
 +++
 

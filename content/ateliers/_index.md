@@ -1,5 +1,8 @@
 +++
 title = "Ateliers"
+weight = "2"
+[menu.principal]
+identifier = "ateliers"
 
 +++
 

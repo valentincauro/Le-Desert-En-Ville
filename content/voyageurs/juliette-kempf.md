@@ -1,8 +1,10 @@
 +++
 
-stitle = "Juliette Kempf"
+title = "Juliette Kempf"
 fonction = "Fondatrice & Metteuse en scène"
 weight = "1"
+[menu.principal]
+parent = "voyageurs"
 
 +++
 

@@ -6,7 +6,8 @@ lieu = "Théâtre du Réel"
 weight = "1"
 vimeo = "222698494"
 url = "/creations/lettres-vives/"
-
+[menu.principal]
+parent = "creations"
 [menu.crea]
 
 +++
