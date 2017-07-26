@@ -11,7 +11,7 @@ h1,h2,h3,h4,p{
 
 
 .container{
-	width:85%;
+	width:95%;
 	max-width:1400px;
 	margin:0 auto;
 }
@@ -432,12 +432,17 @@ footer:before{
 	padding:50px 0;
 	color:#ffffff;
 	margin:0 auto;
-	max-width: 1050px;
+	width: 95%;
+	max-width: 1400px;
+}
+
+.footer .logo{
+	width:120px;
 }
 
 .footer-col{
 	vertical-align: top;
-	margin:0 40px;
+	margin:0 30px;
     display: inline-block;
 	color:#fff;
 	list-style: none;
@@ -755,11 +760,11 @@ color:black;}
 
 }
 
+
+
 .voyageur-item{
 	position: relative;
 	display: inline-block;
-	margin: 0px 20px 20px 0px;
-	width: calc(( 99% / 3 ) - 20px);
 	overflow: hidden;
 	height: 50vh;
 }
@@ -768,8 +773,61 @@ color:black;}
 	width: 100%;
 	height:100%;
 	display: block;
-    transition: margin .3s;
+    transition: margin .1s;
+}
 
+.card{
+	width: calc(( 99% / 3 ) - 20px);
+	margin: 0px 20px 20px 0px;
+    height: 100%;
+    display: inline-block;
+}
+
+.front{
+	transition:all .2s;
+}
+.back{
+	color:#ffffff;
+	padding:20px;
+	cursor: pointer;
+	background-color:#E66C3E;
+}
+
+.back p{
+	position: relative;
+	opacity:1;
+	z-index: 10;
+    font-size: calc(( .8em + .9vw) / 2);
+    color: #ffffff;
+    position: relative;
+    opacity: 1;
+    z-index: 10;
+    line-height: 1.8em;
+    margin-bottom:0;
+    font-weight: 100;
+}
+
+.back p a{
+	text-align:center;
+	padding:10px;
+	border:1px solid rgba(255,255,255,.3);
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+	font-weight: 200;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.back p a:hover{
+	text-align:center;
+	padding:10px;
+	border:1px solid rgba(255,255,255,.3);
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.1em;
+	font-weight: 200;
+	background-color:#ffffff;
+	color:#E66C3E;
+	text-decoration: none;
 }
 
 .voyageur-image:before{
@@ -811,7 +869,8 @@ color:black;}
 
 .voyageur-image:hover{
 	margin-top: -9.5vh;
-    transition: margin .3s;
+	cursor: pointer;
+    transition: margin .1s;
     opacity:1;
 }
 
@@ -831,14 +890,16 @@ color:black;}
 	text-align:center;
 }
 
-.voyageur-infos h1{
+.front h2{
+	color:#E66C3E;;
 	margin-bottom:0;
-	font-size:150%;
+	font-size:130%;
 }
 
-.voyageur-infos h2{
+.front h3{
+	font-weight: 100;
 	margin:0;
-	font-size:125%;
+	font-size:110%;
 }
 
 
@@ -894,4 +955,4 @@ svg path {
 
 }
 
-/* @import url("mediaqueries.css");
+@import url("mediaqueries.css");

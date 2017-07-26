@@ -1,5 +1,5 @@
 +++
-title = "Nous contacter"
+title = "Contact"
 weight = "4"
 [menu.principal]
 identifier = "about"

@@ -1,4 +1,4 @@
-baseURL = "http://www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com/"
+baseURL = ""
 title = "le Désert en Ville — Espace de Création Hors-sol"
 theme = "LDEV_theme"
 canonifyURLs = true

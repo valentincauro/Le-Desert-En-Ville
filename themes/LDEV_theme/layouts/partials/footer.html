@@ -18,6 +18,12 @@
         </ul>
 
     {{ end }}
+
+            <ul class="footer-col">
+              <a href="{{ .Site.BaseURL }}"><img class="logo" src="/images/ldevlogobi.svg"></img></a>
+            </ul>
     </ul>
 	</div>
+{{ .Site.GetPage "section" .Section }}
+
 </footer>

@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 	{{ partial "head.html" .}}
-  <body>
+<script>
+$(function($) {
+  $(".card").flip({
+  	autoSize: true,
+  });
+});
+</script>
+
+<body>
+
     <div class="container">
     	    {{ partial "header.html" .}}
 
@@ -11,33 +20,90 @@
     	    <hr></hr>
     	    <p>{{ .Content }}</p>
 
+    	    <div class="voyageur-liste">
+    	    {{ range .Pages.ByWeight }}
 
+    	    	<div id="card-{{ .Weight }}" class="card">
+    	    		<div class="voyageur-item">
+
+						<div class="front">
+
+							<div class="voyageur-image">
+								<img src="/images/voyageurs/{{ .File.BaseFileName }}.jpg"></img>
+							</div>
+							<div class="voyageur-infos">
+								<h2>{{ .Title }}</h2>
+								<h3>{{ .Params.fonction }}</h3>
+							</div>
+
+						</div>
+
+						<div class="back">
+							<h2>{{ .Title }}</h2>
+							<h3>{{ .Params.fonction }}</h3>
+							<p>{{ .Content }}</p>
+						</div>
+						
+					</div>
+    	    	</div>
+    	    {{ end }}
+    	    </div>
+
+<!--
 				<div class="voyageur-liste">
 
 				{{ range .Pages.ByWeight }}
 
 					<div class="voyageur-item">
 
-						<div class="voyageur-image">
-
+						<div class="voyageur-image" id="card" onclick="flip()">
 							<img src="/images/voyageurs/{{ .File.BaseFileName }}.jpg"></img>
-						
 						</div>
 
 						<div class="voyageur-infos">
 
-							<h1>{{ .Title }}</h1>
-
-							<h2>{{ .Params.fonction }}</h2>
-
-
+							<h2>{{ .Title }}</h2>
+							<h3>{{ .Params.fonction }}</h3>
 						</div>
-
 					</div>
 
 				{{ end }}
 
 				</div>
+
+
+				{{ range .Pages.ByWeight }}
+
+				<div id="card"> 
+  <div class="front"> 
+    <img src="/images/voyageurs/{{ .File.BaseFileName }}.jpg"></img>
+  </div> 
+  <div class="back">
+    {{ .Content }}
+  </div> 
+</div>
+
+
+				<div class="blabla" onclick="flip()">
+				<div class="card">
+					<div class="front">
+						<p>{{ .Title }}</p>
+						<img src="/images/voyageurs/{{ .File.BaseFileName }}.jpg"></img>
+					</div>
+
+					<div class="back">
+					{{ .Content }}
+					</div>
+				</div>
+
+				</div>
+
+				{{ end }}
+
+
+			</div>
+
+			-->
 
     	 </main>
 
