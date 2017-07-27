@@ -416,9 +416,11 @@ a.menu-item.active:hover {
 }
 
 footer{
-	margin-top:5em;
-	width:100%;
-	background-color: #404040;
+    z-index: 99;
+    margin-top: 0em;
+    width: 100%;
+    background-color: #404040;
+    position: relative;
 }
 
 footer:before{
@@ -498,7 +500,7 @@ a.menucrea-item.active{
 	font-size:20px;
 	float:left;
 	color: #C64F24 !important; 
-	margin-right:25%;
+	margin-right:12vw;
 	padding-top:0;
 }
 
@@ -571,7 +573,6 @@ a.menucrea-item:hover h1 {
 }
 .sidebar strong{
 	color: #C64F24;
-	font-weight: 400;
 }
 
 .sidebar em{
@@ -611,14 +612,14 @@ a.menucrea-item:hover h1 {
 main{
 	display: inline-block;
 	width:100%;
-	margin: 20px 0;
+	margin: 20px 0 15vh 0;
 	padding: 20px;
 }
 
 main h1{
 	color: #C64F24;
 	font-size: 24px;
-	font-weight:300;
+	font-weight:200;
 	font-style: italic; 
 }
 
@@ -631,13 +632,12 @@ main h2{
 }
 
 main h3{
-	font-size:1.1em;
-	font-weight:400;
+	font-size:1em;
 	margin-top:5px;
 }
 
 main h4{
-	font-size:1em;
+	font-size:.9em;
 	font-weight:300;
 	margin:0px;
 	padding:0px;
@@ -773,7 +773,8 @@ color:black;}
 	width: 100%;
 	height:100%;
 	display: block;
-    transition: margin .1s;
+    transition: margin .2s !important;
+    transition-delay: 80ms !important;
 }
 
 .card{
@@ -793,6 +794,17 @@ color:black;}
 	background-color:#E66C3E;
 }
 
+.back h3{
+    font-size: 1em;
+    font-weight: 200;
+    margin-top: 0px;
+    line-height: 1px;
+}
+
+.back h2{
+	font-size:1.2em;
+}
+
 .back p{
 	position: relative;
 	opacity:1;
@@ -804,10 +816,21 @@ color:black;}
     z-index: 10;
     line-height: 1.8em;
     margin-bottom:0;
-    font-weight: 100;
+    font-weight: 200;
+}
+
+.back hr {
+	color: #ffffff;
+    background-color: #ffffff;
+    width: 30%;
+    max-width: 320px;
+    margin-left: 0;
+    margin: 2em 0 2em 0;
 }
 
 .back p a{
+	margin-right:1em;
+	margin-top:2em;
 	text-align:center;
 	padding:10px;
 	border:1px solid rgba(255,255,255,.3);
@@ -819,12 +842,7 @@ color:black;}
 }
 
 .back p a:hover{
-	text-align:center;
-	padding:10px;
-	border:1px solid rgba(255,255,255,.3);
-	font-family: 'Montserrat', sans-serif;
-	font-size:1.1em;
-	font-weight: 200;
+
 	background-color:#ffffff;
 	color:#E66C3E;
 	text-decoration: none;
@@ -897,14 +915,148 @@ color:black;}
 }
 
 .front h3{
-	font-weight: 100;
+	font-weight: 200;
 	margin:0;
 	font-size:110%;
 }
 
+.tete{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height:35vh;
+}
+
+.tete img{
+	opacity: .6;
+	object-fit: cover;
+    object-position: center;
+}
+
+.intro-formulaire{
+    position: absolute;
+    background-color: rgba(255,255,255,.8);
+    z-index: 20;
+    width: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 5% 20px 30px 20px;
+    text-align: center;
+}
+
+.intro-formulaire strong{
+	font-size:120%;
+}
+
+.corps{
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background-color: #E66C3E;
+}
+
+.corps:before{
+	content:'';
+	position: absolute;
+	width: 100%;
+    height:100%;
+    opacity:0.2;
+	overflow: hidden;
+	background: url("/img/terre-rouge.jpg");
+	transition:opacity;
+ 	background-size: cover;	
+}
+
+.corps form{
+	font-family: 'Spectral', serif;
+	font-size:1.2em;
+	color:#FFF;
+    position: relative;
+    background-color: rgba(255,255,255,.1);
+    z-index: 20;
+    width: 50%;
+    margin: auto;
+    padding: 1em 20px 30px 20px;
+}
 
 
+form input{
+	font-family: 'Spectral', serif;
+	font-size:18px;
+	color:#FFF !important;
+	height:40px;
+	margin-bottom: 10px;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
 
+::-webkit-input-placeholder{
+	color:#ffcebc;
+	font-variant: italic;
+}
+
+
+form input:focus{
+	outline:none;
+}
+
+form button{
+	color:#FFF;
+	font-size:.8em;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	letter-spacing: 1px;
+    border-width: 1px;
+    border-color: none;
+    border-image: initial;
+    display: block;
+    width: 30%;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 2em auto .5em auto;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+form button:hover{
+	background-color:#fff;
+	color:#e0724a;
+	cursor: pointer;
+}
+.ecrits{
+    position: relative;
+	background: linear-gradient(transparent, transparent 29px, #ffffff 18px);
+    background-size: 30px 30px;
+}
+
+form textarea {
+	width: 100%;
+	height:auto;
+    border:none;
+    background-color:transparent;
+    display: block;
+    font-family: 'Spectral',cursive;
+    font-size: 18px;
+    color:#fff;
+    line-height: 30px;
+    margin: 2% auto;
+    resize: none;
+    min-height:100px;
+    color:#fff;
+    background-size: 100% auto;
+}
+
+form textarea:focus{
+	outline:none;
+}
 
 main .ateliernav h1 {
 	display:block;

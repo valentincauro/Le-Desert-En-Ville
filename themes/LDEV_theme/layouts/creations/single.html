@@ -3,11 +3,22 @@
 
 	{{ partial "head.html" .}}
 	<script>
- 	 $(document).ready(function(){
-    	// Target your .container, .wrapper, .post, etc.
-   	 $(".video").fitVids();
-  	});
-		</script>
+	 	 $(document).ready(function(){
+	    	// Target your .container, .wrapper, .post, etc.
+	   	 $(".video").fitVids();
+	  	});
+
+		function auto_grow(element) {
+	    element.style.height = "5px";
+	    element.style.height = (element.scrollHeight)+"px";
+		}
+
+		var submitted=false;
+
+		function show_alert() {
+			alert("Merci");
+		}
+	</script>
 
   <body>
 
@@ -16,25 +27,18 @@
 	    {{ partial "header.html" .}}
 
 		<main>
-		  	<nav class="menucrea">
 
+		  	<nav class="menucrea">
 		        {{ $currentPage := . }}
 		        {{ range .Site.Menus.crea }}
-
 				<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}"><h1>{{ .Name }}</h1></a>
 		        {{ end }} 
 		        <h2>{{ .Params.soustitre }}</h2>
 		        <hr>
-
-
-
 		    </nav>
 
 	   		 <div class="sidebar">
-
 	   		 	{{ .Content }}
-	   		 	
-
 			</div>
 
 			<div class="content">
@@ -44,16 +48,34 @@
 					  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				{{ end }}
-
+				{{ if .Params.vimeo2 }}
+					<div class="video">
+					  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo2 }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				{{ end }}
 				{{ partial "gallery.html" .}}
-
-
 			</div>
 
 	    </div>
 
-</main>
-    		{{ partial "footer.html" .}}
+	</main>
+
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='REDIRECT-URL.html';}"></iframe>
+
+	<div class="formulaire">
+		<div class="tete">
+			<img src="/images/image-formulaire.jpg"></img>
+			<div class="intro-formulaire">
+				<p><strong>Votre curiosité est aussi la notre</strong></p>
+				<p>Une envie d'échanger, de participer, ou simplement de dire bonjour ?</p>
+			</div>
+		</div>
+		<div class="corps">
+			{{ partial "formulaire" .}}
+		</div>
+	</div>
+
+	{{ partial "footer.html" .}}
 
   </body>
 

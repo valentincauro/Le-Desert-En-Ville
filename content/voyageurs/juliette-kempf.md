@@ -5,6 +5,7 @@ fonction = "Fondatrice & Metteuse en scène"
 weight = "1"
 [menu.principal]
 parent = "voyageurs"
+url="/voyageurs/"
 
 +++
 
