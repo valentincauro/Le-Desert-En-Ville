@@ -62,18 +62,7 @@
 
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='REDIRECT-URL.html';}"></iframe>
 
-	<div class="formulaire">
-		<div class="tete">
-			<img src="/images/image-formulaire.jpg"></img>
-			<div class="intro-formulaire">
-				<p><strong>Votre curiosité est aussi la notre</strong></p>
-				<p>Une envie d'échanger, de participer, ou simplement de dire bonjour ?</p>
-			</div>
-		</div>
-		<div class="corps">
-			{{ partial "formulaire" .}}
-		</div>
-	</div>
+	{{ partial "formulaire" .}}
 
 	{{ partial "footer.html" .}}
 
