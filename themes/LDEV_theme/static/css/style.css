@@ -354,6 +354,9 @@ header{
 	margin:30px 0;
 }
 
+.header-min{
+	display: none;
+}
 
 .hp .menu{
 	float:inherit;
@@ -597,7 +600,6 @@ a.menucrea-item:hover h1 {
 	color:#e6774f;
 	padding-left:20px;
 	transition: 200ms;
-
 }
 
 .sidebar a:before{
