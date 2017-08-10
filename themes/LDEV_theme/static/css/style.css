@@ -495,14 +495,18 @@ footer:before{
 }
 
 .menucrea{
-	padding-left:10px;
+	padding: 40px 40px 0 40px;
 }
 
 a.menucrea-item.active{
 	animation-delay: -3s;
-	font-size:20px;
+	font-size:22px;
+	font-family: 'Spectral', serif;
+	font-style: italic;
 	float:left;
-	color: #C64F24 !important; 
+	font-weight: 200;
+	font-variant: italic;
+	color: #C64F24; 
 	margin-right:25%;
 	padding-top:0;
 }
@@ -511,8 +515,13 @@ a.menucrea-item.active:hover{
 	transform: none;
 }
 
+
 a.menucrea-item{
 	color:gray;
+	font-style: italic;
+	font-size:22px;
+	font-family: 'Spectral', serif;
+	font-weight: 200;
 	text-decoration: none;
 	display: inline-block;
 	transition: transform .2s ease;
@@ -523,7 +532,8 @@ a.menucrea-item{
 	margin-right:100px;
 }
 
-a.menucrea-item h1 {
+a.menucrea-item {
+
 	margin-bottom: 0;
 	transition: .3s;
 
@@ -532,10 +542,17 @@ a.menucrea-item h1 {
 a.menucrea-item:empty {display:none;}
 
 
-a.menucrea-item:hover h1 {
+a.menucrea-item:hover{
 	color: #000; 
 	transition: .3s;
 
+}
+
+.menucrea h1{
+	color: #C64F24;
+	font-size: 24px;
+	font-weight:200;
+	font-style: italic; 
 }
 
 .menucrea h2{
@@ -548,7 +565,14 @@ a.menucrea-item:hover h1 {
 	font-style: normal;
 }
 
-
+.menucrea hr{
+    color: #e66c3e;
+    background-color: #e66c3e;
+    width: 30%;
+    max-width: 320px;
+    margin-left:-1.5em;
+    margin-bottom: 2em;
+}
 
 .sidebar{
 	vertical-align: top;
@@ -571,7 +595,7 @@ a.menucrea-item:hover h1 {
 }
 
 .sidebar blockquote:before{
-	left:-65px;
+	left:-50px;
 	top:25px;
 }
 .sidebar strong{
@@ -641,8 +665,12 @@ a.menucrea-item:hover h1 {
 main{
 	display: inline-block;
 	width:100%;
-	margin: 20px 0 10vh 0;
+	margin: 40px 0 10vh 0;
 	padding: 20px;
+}
+
+main h1, main hr{
+	display: none;
 }
 
 main h1{
@@ -694,6 +722,7 @@ main strong {
 }
 
 p:empty {display:none;}
+
 
 .ateliers-liste{
     display: inline-block;

@@ -18,24 +18,47 @@
 		function show_alert() {
 			alert("Merci");
 		}
-	</script>
+
+        function sticky_relocate() {
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor').offset().top;
+            if (window_top > div_top) {
+                $('#nav').addClass('stick');
+                $('a').addClass('white');
+                $('#sticky-anchor').height($('#nav').outerHeight());
+            } else {
+                $('#nav').removeClass('stick');
+                $('a').removeClass('white');
+                $('#sticky-anchor').height();
+            }
+        }
+
+        $(function() {
+            $(window).scroll(sticky_relocate);
+            sticky_relocate();
+        });
+
+  </script>
 
   <body>
 
     <div class="container">
 	    
 	    {{ partial "header.html" .}}
+	    <div id="sticky-anchor">
+
+	  	<nav class="menucrea" id="nav">
+	        {{ $currentPage := . }}
+	        {{ range .Site.Menus.crea }}
+			<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+	        {{ end }} 
+	        <h2>{{ .Params.soustitre }}</h2>
+	        <hr>
+	    </nav>
+
+	    </div>
 
 		<main>
-
-		  	<nav class="menucrea">
-		        {{ $currentPage := . }}
-		        {{ range .Site.Menus.crea }}
-				<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}"><h1>{{ .Name }}</h1></a>
-		        {{ end }} 
-		        <h2>{{ .Params.soustitre }}</h2>
-		        <hr>
-		    </nav>
 
 	   		 <div class="sidebar">
 	   		 	{{ .Content }}

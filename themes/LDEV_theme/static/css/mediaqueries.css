@@ -24,6 +24,10 @@
 		background-image: none;
 	}
 
+	.sidebar blockquote:before{
+		display: none;
+	}
+
 }
 
 
@@ -36,7 +40,8 @@
 	}
 
 	main{
-	    margin: 115px 0 10vh 0;
+	    margin: 0 0 10vh 0;
+	    padding: 30px;
 	}
 
 	main hr{
@@ -51,6 +56,11 @@
 		display: none;
 	}
 
+	.stick{
+		position: fixed;
+		top:0 !important;
+	}
+
 	.header-min{
 		top:0;
 		z-index: 99;
@@ -58,7 +68,6 @@
 		height:90px;
 		width: 100%;
 		margin:0;
-		position: fixed;
 		display: inherit;
 	}
 
@@ -66,11 +75,11 @@
 	    background-color: #E66C3E;
 	    border: 15px solid #E66C3E;
 	    transform: none;
-	    margin-left: 20px;
-	    vertical-align: bottom;
+	    margin-left: 0px;
+	    vertical-align: top;
 	    display: inline-block;
-	    width: 220px;
-	    height: 97px;
+    	width: 215px;
+    	height: 90px;
 	    background-repeat: no-repeat;
 	    background-image: url(/img/ldevlogoblancxs.svg);
 	}
@@ -79,18 +88,18 @@
 		text-align: center;
     	margin: 10px 0 18px 0;
 		float:none;
-
+		width:70vw;
 	}
 
 	a.menu-item{
-		font-size:16px !important;
-	    margin: 10px 10px;
-	    color: #ffffff !important;
+		font-size:16px;
+	    margin: 10px 15px;
+	    color: #ffffff;
 	}
 
-	.menu-item.active{
+	a.menu-item.active{
 	    font-weight: 300;
-		color: #ffffff !important;
+		color: #ffffff;
 		border-bottom:solid 1px #404040;
 	}
 
@@ -100,8 +109,46 @@
 		content: url(/img/cercleblanc.svg);
 	}
 
+	.menucrea{
+	    width: 100%;
+	    z-index: 50;
+   		padding: 0;
+   		top: 90px;
+	    background-color: #F8F8F8;
+	}
+
+	.menucrea h1{
+		font-size:20px;
+	}
+
+	.menucrea h2{
+		display: none;
+	}
+
+	.menucrea hr{
+		display: none;
+	}
+
+	a.menucrea-item{
+		padding:15px;
+		margin-right:0px;
+		font-size:18px;
+	}
+
+	a.menucrea-item.active{
+		background-color: #C64F24;
+		color: #ffffff;
+		font-size:18px;
+		padding:15px 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		font-weight: 300 !important;
+	}
+
 	.sidebar{
 		width: 100%;
+		padding:0px;
+		padding-top:20px;
 	}
 
 	.sidebar p{
@@ -129,13 +176,12 @@
 	.content img, .video{
 		padding:0;
 	}
-
-
 }
+
 @media only screen and (max-width: 800px) {
 
 	main{
-		margin: 175px 0 0 0;
+		margin: 0;
 	}
 
 	main p{
@@ -152,6 +198,11 @@
     	height: 83px;
 	}
 
+	a.menu-item {
+    	font-size: 16px;
+    	margin: 10px 10px;
+	}
+
 	.header-min{
 		text-align: center;
 		height:inherit;
@@ -165,6 +216,10 @@
 
 	a.menu-item.active:before{
 		display: none;
+	}
+
+	.menucrea{
+		top:150px;
 	}
 
 
@@ -239,15 +294,18 @@
 		padding-bottom:1em;
 		margin-bottom:0;
 	}
+
 	.back p{
 		color: #000000;
 		font-size:3.8vw;
 	}
+
 	.footer-col{
 		width:15%;
 		margin:13px;
 	}
-		.footer-content{
+
+	.footer-content{
 		padding:40px 20px;
 		width: 100%;
 	}
@@ -262,20 +320,79 @@
 	}
 
 	.footer ul>li>a {
-		font-size:17px;
+		font-size:15px;
 		padding:5px 0;
 		display: block;
 	}
 
 	.footer ul>li>a:hover {
 		color:inherit;
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 }
 
 
 @media only screen and (max-width: 520px) {
+
+	main{
+		padding:10px;
+	}
+
+	.logoheader{
+		margin-left:0;
+		height:120px;
+		position: relative;
+	    background-size: 65vw;
+	    border:none;
+	    background-position: center;
+	    background-color: #E66C3E;
+    	background-image: url(/img/ldevlogoblanc.svg);
+	}
+
+	.logoheader, .menu{
+		width:100%;
+	}
+
+	.menu{
+		border-top:none;
+	}
+
+	a.menu-item, a.menu-item.active{
+		padding:19px .8vw;
+		font-size:13px;
+		margin:0;
+	}
+
+	a.menu-item.active{
+	}
+
+	.menucrea{
+		top: 125px;
+	}
+
+	a.menucrea-item, a.menucrea-item.active{
+		width:100%;
+		padding:10px;
+		font-size:16px;
+		margin-right:0;
+	}
+
+	a.menucrea-item.active{
+		background-color: #dcdcdc;
+		color: #000000;
+		font-weight: 300;
+	}
+
+	a.menucrea-item.active.white{
+		display: block;
+		background-color:#E66C3E;
+		color:white;
+	}
+
+	a.menucrea-item.white{
+		display: none;
+	}
 
 	.col50{
 		width:100%;
@@ -293,41 +410,6 @@
 		top:0;
 		height:auto;
 	}
-
-	main{
-		margin-top: calc( 20vw + 70px );
-		padding:10px;
-	}
-
-	.logoheader, .menu{
-		width:100%;
-	}
-
-	.logoheader{
-		margin-left:0;
-		height:20vw;
-		position: relative;
-	    background-size: 80vw;
-	    border:none;
-	    background-image: url(/img/ldevlogoblancxxs.svg);
-	    background-position: center;
-    	background-image: url(/img/ldevlogoblancxxs.svg);
-	}
-
-
-	a.menu-item{
-		font-size:13px !important;
-    	margin: 0;
-    	padding: 12px .8vw;
-	}
-
-	a.menu-item.active{
-	    color: #ffffff !important;
-	    border-top: solid 0px #e66c3e;
-	    background-color: #000;
-	}
-
-
 
 	.sidebar{
 		width: 100%;
