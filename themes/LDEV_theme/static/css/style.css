@@ -3,6 +3,7 @@ html{
 
 body{
 	border:1px solid #E66C3E;
+	background-color: #fafafa;
 }
 
 h1,h2,h3,h4,p{
@@ -11,8 +12,7 @@ h1,h2,h3,h4,p{
 }
 
 .container{
-	width:95%;
-	max-width:1400px;
+	width: 1200px;
 	margin:0 auto;
 }
 
@@ -334,24 +334,93 @@ h1,h2,h3,h4,p{
 	100% {opacity: 0.6;}
 }
 
-.logoheader{
-	transform:scale(.9);
-	margin-left: 10px;
-	vertical-align: bottom;
-	display: inline-block;
-	width:220px;
-	height:120px;
-	background-repeat: no-repeat;
-	background-image: url("/img/ldevlogoheader.svg");
-}
-
-.logoheader:hover{
-	opacity:1;
-	background-image: url("/img/ldevlogoheaderhover.svg");	
-}
 
 header{
-	margin:30px 0;
+	background-color: rgba(255,255,255,.5);
+	border-bottom:1px solid #f4f4f4;
+	padding: 0;
+}
+
+/**
+#miniheader{
+	display: none;
+	z-index: 99;
+    width: 100%;
+    left: 0;
+    height:50px;
+    position: fixed;
+    top: 0;
+    background-color: #404040;
+}
+
+#miniheader .menu{
+	padding:0;
+	margin:0;
+}
+
+#miniheader .logoheader{
+	transform: scale(1);
+    vertical-align: top;
+    width: 320px;
+    height: 50px;
+    border: 10px solid #e66c3e;
+	background-image:url(/img/ldevlogoblancxxs.svg);
+	background-color:#E66C3E;
+}
+
+#miniheader a.menu-item, #miniheader a.menu-item:active{
+}
+
+*/
+
+#miniheader{
+	background-color:#ffffff;
+	border-bottom:2px solid #f4f4f4;
+	visibility: hidden;
+	transform: translateY(-50px);
+	z-index: 99;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: .3s;
+}
+
+#miniheader .menu{
+	width: calc( 100% - 360px);
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+
+#miniheader .logoheader{
+    vertical-align: middle;
+    width: 320px;
+    height: 30px;
+	background-image:url(/img/ldevlogonoirxxs.svg);
+}
+#miniheader a.menu-item.active{
+    background-color: #f5f5f5;
+    font-weight: 400;
+    border-top: 1px solid #E66C3E;
+    color: #3c3c3c;
+}
+
+#miniheader a.menu-item, #miniheader a.menu-item.active{
+	color: #000000;
+	margin: 0px;
+	padding: 15px 30px;
+	font-size: 14px;
+}
+
+#miniheader a.menu-item:before{
+	display: none;
+}
+
+.mini-on{
+	transform: translateY(0) !important;
+	transition: .3s;
+	visibility: visible !important;
 }
 
 .header-min{
@@ -362,26 +431,45 @@ header{
 	float:inherit;
 }
 
-.menu{
-	float:right;
-	margin: 10px 0;
+.logoheader{
+	opacity: .8;
+	border:5px solid #ffffff;
+	margin-left: 10px;
+	vertical-align: middle;
 	display: inline-block;
-	max-width:920px;
+	width:205px;
+	height:110px;
+	background-repeat: no-repeat;
+	background-image: url("/img/ldevlogoheader2.svg");
+}
+
+.logoheader:hover{
+	opacity:1;
+	background-image: url("/img/ldevlogoheaderhover.svg");	
+}
+
+
+.menu{
+	vertical-align: middle;
+	width: calc( 100% + -260px);
+	position: relative;
+	display: inline-block;
+	text-align: right;
 }
 
 .menu-item{
 	text-transform: uppercase;
 	vertical-align: top;
 	display: inline-block;
-	padding:10px 20px;
+	padding: 40px 20px;
 }
 
 a.menu-item:before{
 	display: none;
 	position:absolute;
 	content:url("/img/cercleorange.svg");
-	width:65px;
-	top:31px;
+	width:55px;
+	top:16px;
 }
 
 
@@ -391,12 +479,12 @@ a.menu-item.active:before{
 
 a.menu-item {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
-	font-size: 18px;
+	font-weight: 300;
+	font-size: 16px;
 	text-decoration: none;
-	color: #000;
+	color: #4c4c4c;
 	transition: .2s;
-	margin:10px 25px;
+	margin:0px 25px;
 	border:1px solid transparent;
 }
 
