@@ -1,5 +1,7 @@
-@media only screen and (min-width: 1400px) {
-
+@media only screen and (max-width: 1400px) {
+	.sidebar blockquote:before{
+		display: none;
+	}
 }
 
 
@@ -14,12 +16,6 @@
 		margin: 10px 15px;
 	}
 
-	a.menu-item:before{
-	    width: 55px;
-	    top: 30px;
-	    margin-left: 10px;
-	}
-
 	.logoheader:hover{
 		background-image: none;
 	}
@@ -28,32 +24,11 @@
 		display: none;
 	}
 
-}
-
-
-
-@media only screen and (max-width: 1200px) {
-
-
-	body{
-		border:none;
-	}
-
-	main{
-	    margin: 0 0 10vh 0;
-	    padding: 30px;
-	}
-
-	main hr{
-		margin-left:0;
-	}
 	.container{
-		margin:0;
 		width: 100%;
 	}
 
 	header{
-		display: none;
 	}
 
 	.stick{
@@ -70,7 +45,7 @@
 		margin:0;
 		display: inherit;
 	}
-
+/*
 	.logoheader{
 	    background-color: #E66C3E;
 	    border: 15px solid #E66C3E;
@@ -90,25 +65,21 @@
 		float:none;
 		width:70vw;
 	}
-
+*/
 	a.menu-item{
 		font-size:16px;
-	    margin: 10px 15px;
-	    color: #ffffff;
+	    margin: 0;
+	    padding: 43px 20px;
 	}
 
 	a.menu-item.active{
 	    font-weight: 300;
-		color: #ffffff;
-		border-bottom:solid 1px #404040;
+		color: #000000;
 	}
-
 	.menu-item.active:before{
-		top:12px;
-		width: 50px;
-		content: url(/img/cercleblanc.svg);
+		top:20px;
 	}
-
+/*
 	.menucrea{
 	    width: 100%;
 	    z-index: 50;
@@ -144,7 +115,7 @@
 		margin-right: 0px;
 		font-weight: 300 !important;
 	}
-
+*/
 	.sidebar{
 		width: 100%;
 		padding:0px;
@@ -180,27 +151,34 @@
 
 @media only screen and (max-width: 800px) {
 
+	.container{
+		width:100%;
+	}
 	main{
 		margin: 0;
 	}
 
 	main p{
 		margin: 5vh 0;
-		font-size:1.15em;
+		font-size:1em;
 		line-height:2em;
 	}
 
 	.logoheader{
+		opacity: 1;
 		margin-left:0;
-		background-position: center;
-		border: 9px solid #E66C3E;
-    	width: 260px;
-    	height: 83px;
+		height:120px;
+		position: relative;
+		width: 100%;
+	    border:none;
+	    background-position: center;
+	    background-color: #E66C3E;
+    	background-image: url(/img/ldevlogoblanc.svg);
 	}
 
 	a.menu-item {
     	font-size: 16px;
-    	margin: 10px 10px;
+    	padding: 15px 11px;
 	}
 
 	.header-min{
@@ -211,7 +189,7 @@
 	.menu{
 		width: 100%;
 		margin:0;
-		border-top:1px solid #525252;
+		text-align: center;
 	}
 
 	a.menu-item.active:before{
@@ -220,6 +198,14 @@
 
 	.menucrea{
 		top:150px;
+	}
+
+	#miniheader .menu{
+		width: 100%
+	}
+	#miniheader .logoheader{
+		display: none;
+
 	}
 
 
@@ -231,7 +217,7 @@
 	}
 
 	.voyageur-liste{
-		margin:0;
+		margin-top:20px;
 	}
 
 	.card{
@@ -251,8 +237,9 @@
 		display: none;
 	}
 	.voyageur-image{
-		width: 100%;
-		height: 85vw;
+	    width: 50%;
+	    margin: 0 auto;
+	    height: 45vw;
 	}
 	.voyageur-image:hover{
 		margin-top:0;
@@ -274,7 +261,7 @@
 		text-align: center;
 		transform:none !important;
 		padding:30px 10px;
-		background-color: #ffffff;
+		background-color: transparent;
 		color: #000000;
 
 	}
@@ -283,21 +270,23 @@
 	}
 	.back h2{
 		margin-bottom:5px;
-		font-size:6vw;
+		font-size:1.2em;
 	}
 
 	.back h3{
 		line-height: inherit;
 		display: inline-block;
 		border-bottom: 1px solid rgb(230, 108, 62);
-		font-size:4.5vw;
+		font-size:1.1em;
 		padding-bottom:1em;
 		margin-bottom:0;
 	}
 
 	.back p{
+		text-align: justify;
+		padding:0 5%;
 		color: #000000;
-		font-size:3.8vw;
+		font-size: 1em;
 	}
 
 	.footer-col{
@@ -320,14 +309,14 @@
 	}
 
 	.footer ul>li>a {
-		font-size:15px;
-		padding:5px 0;
+		font-size:12px;
+		padding:2px 0;
 		display: block;
 	}
 
 	.footer ul>li>a:hover {
 		color:inherit;
-		font-size: 15px;
+		font-size: 12px;
 	}
 
 }
@@ -335,19 +324,45 @@
 
 @media only screen and (max-width: 520px) {
 
+	body{
+		border:none;
+	}
+
 	main{
 		padding:10px;
 	}
 
+	#miniheader{
+		border-bottom:none;
+	}
+	.voyageur-image{
+		width:100%;
+		height:60vw;
+	}
+
+	.back p{
+		padding:0;
+	}
+
+	.back a{
+		width: 80%;
+	    color: #E66C3E;
+		border: 1px solid #E66C3E;
+	    margin: 1em auto;
+	}
+
+
 	.logoheader{
-		margin-left:0;
-		height:120px;
-		position: relative;
-	    background-size: 65vw;
-	    border:none;
+		border-bottom: 2px solid #505050;
+	    opacity: 1;
+	    margin-left: 0;
+	    height: 120px;
+	    position: relative;
+	    border: none;
 	    background-position: center;
 	    background-color: #E66C3E;
-    	background-image: url(/img/ldevlogoblanc.svg);
+	    background-image: url(/img/ldevlogoblanc.svg);
+	    transform: scale(1);
 	}
 
 	.logoheader, .menu{
@@ -355,20 +370,34 @@
 	}
 
 	.menu{
+		background-color: #525252;
 		border-top:none;
 	}
 
 	a.menu-item, a.menu-item.active{
-		padding:19px .8vw;
-		font-size:13px;
+		color: #ffffff;
+		padding: 10px 5px;
+		font-size:12px;
 		margin:0;
 	}
 
 	a.menu-item.active{
+		background-color: #464646;
+    	border-bottom: 1px solid #e66c3e;
 	}
 
 	.menucrea{
 		top: 125px;
+	}
+
+	#miniheader a.menu-item{
+		color:#ffffff;
+	}
+
+	#miniheader a.menu-item.active{
+	    background-color: #464646;
+	    color:#ffffff;
+	    border-bottom:none;
 	}
 
 	a.menucrea-item, a.menucrea-item.active{
@@ -417,6 +446,11 @@
 
 	.sidebar p{
 		font-size:1.2em;
+	}
+
+	#miniheader a.menu-item, #miniheader a.menu-item.active {
+	    padding: 13px 5px;
+	    font-size:12px;
 	}
 
 }

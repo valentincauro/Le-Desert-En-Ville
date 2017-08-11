@@ -525,8 +525,6 @@ footer:before{
 	padding:50px 0;
 	color:#ffffff;
 	margin:0 auto;
-	width: 95%;
-	max-width: 1400px;
 }
 
 .footer .logo{
@@ -580,6 +578,22 @@ footer:before{
 	margin-left:0;
 	margin: 2px 0;
 
+}
+.prefooter{
+	height: 170px;
+    background-color: #ffffff;
+    transform: rotate(-1.2deg);
+    position: relative;
+    top: -11px;
+    z-index: 87;
+    width: 110%;
+}
+
+.prefooter:before{
+	content:url("/img/grayborderwhite.svg");
+	width:100%;
+	position: absolute;
+	margin-top:-10px;
 }
 
 .menucrea{
@@ -1248,12 +1262,13 @@ main .ateliernav hr {
 	left:auto;
 	top:auto;
 	right:auto;
+	background-color: transparent;
 	bottom:auto;
 	text-align:left;
 }
 
 .contact .formulaire .corps{
-	background-color:#ffffff;
+	background-color:transparent;
 }
 
 .contact .formulaire .corps:before{

@@ -1,28 +1,23 @@
 <footer>
 	<div class= "footer">
-    <div class="footer-content">
+    <div class= "container">
+      <div class="footer-content">
 
-    {{ range .Site.Menus.principal }}
-
-
-        <ul class="footer-col">
-
-          <li class="footer-prim"><a href="{{ .URL }}">{{ .Name }}</a></li>
-            
-            <ul>
-              {{ range .Children }}
-                <li class="footer-sub"><a href="{{ .URL }}">{{ .Name }}</a></li>          
-              {{ end }}
+        {{ range .Site.Menus.principal }}
+            <ul class="footer-col">
+              <li class="footer-prim"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                <ul>
+                  {{ range .Children }}
+                    <li class="footer-sub"><a href="{{ .URL }}">{{ .Name }}</a></li>          
+                  {{ end }}
+                </ul>
             </ul>
-
-        </ul>
-
-    {{ end }}
+        {{ end }}
 
             <ul class="footer-col">
               <a href="{{ .Site.BaseURL }}"><img class="logo" src="/images/ldevlogobi.svg"></img></a>
             </ul>
-    </ul>
-	</div>
-
+          </div>
+        </div>
+    </div>
 </footer>
