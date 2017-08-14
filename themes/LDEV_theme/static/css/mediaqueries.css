@@ -17,7 +17,7 @@
 	}
 
 	.logoheader:hover{
-		background-image: none;
+		background-image: initial;
 	}
 
 	.sidebar blockquote:before{
@@ -171,8 +171,12 @@
 		position: relative;
 		width: 100%;
 	    border:none;
+	    background-size:30%;
 	    background-position: center;
 	    background-color: #E66C3E;
+    	background-image: url(/img/ldevlogoblanc.svg);
+	}
+	.logoheader:hover{
     	background-image: url(/img/ldevlogoblanc.svg);
 	}
 
@@ -335,6 +339,7 @@
 	#miniheader{
 		border-bottom:none;
 	}
+
 	.voyageur-image{
 		width:100%;
 		height:60vw;
@@ -356,38 +361,49 @@
 		border-bottom: 2px solid #505050;
 	    opacity: 1;
 	    margin-left: 0;
-	    height: 120px;
+	    height: 70px;
 	    position: relative;
 	    border: none;
+	    background-size:80%;
 	    background-position: center;
 	    background-color: #E66C3E;
-	    background-image: url(/img/ldevlogoblanc.svg);
+	    background-image: url(/img/ldevlogoblancxxs.svg);
 	    transform: scale(1);
+	}
+
+	.logoheader:hover{
+		background-image: url(/img/ldevlogoblancxxs.svg);
 	}
 
 	.logoheader, .menu{
 		width:100%;
 	}
 
-	.menu{
-		background-color: #525252;
-		border-top:none;
+	.menucrea{
+		top: 125px;
 	}
 
 	a.menu-item, a.menu-item.active{
-		color: #ffffff;
 		padding: 10px 5px;
 		font-size:12px;
 		margin:0;
 	}
 
+	.menu{
+		border-bottom: 1px solid #f3f3f3;
+	}
+/*
+	.menu{
+		background-color: #525252;
+		border-top:none;
+	}
+
+
+	}
+
 	a.menu-item.active{
 		background-color: #464646;
     	border-bottom: 1px solid #e66c3e;
-	}
-
-	.menucrea{
-		top: 125px;
 	}
 
 	#miniheader a.menu-item{
@@ -399,7 +415,7 @@
 	    color:#ffffff;
 	    border-bottom:none;
 	}
-
+*/
 	a.menucrea-item, a.menucrea-item.active{
 		width:100%;
 		padding:10px;

@@ -17,9 +17,12 @@
             if (window_top > div_top) {
                 $('#miniheader').addClass('mini-on');
                 $('#sticky-anchor').height($('#miniheader').outerHeight());
+                $('#nav').addClass('minicrea');
             } else {
                 $('#miniheader').removeClass('mini-on');
                 $('#sticky-anchor').height(0);
+                $('#nav').removeClass('minicrea');
+
             }
         }
 
@@ -33,7 +36,6 @@
   <div class="container">
 
         <div>
-
         	<a class="logoheader" href="{{ .Site.BaseURL }}"></a>
           	<nav class="menu">
                 {{ $currentPage := . }}

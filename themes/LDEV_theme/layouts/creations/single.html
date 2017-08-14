@@ -33,10 +33,6 @@
             }
         }
 
-        $(function() {
-            $(window).scroll(sticky_relocate);
-            sticky_relocate();
-        });
 
   </script>
 
@@ -44,20 +40,21 @@
 
     {{ partial "header.html" .}}
 
-    <div class="container">
-	    
-	    <div id="sticky-anchor"></div>
 
 	  	<nav class="menucrea" id="nav">
-	        {{ $currentPage := . }}
-	        {{ range .Site.Menus.crea }}
-			<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
-	        {{ end }} 
-	        <h2>{{ .Params.soustitre }}</h2>
-	        <hr>
+	  	    <div class="container">
+
+		        {{ $currentPage := . }}
+		        {{ range .Site.Menus.crea }}
+				<a class="menucrea-item{{if or ($currentPage.IsMenuCurrent "crea" .) ($currentPage.HasMenuCurrent "crea" .) }} active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+		        {{ end }} 
+		        <h2>{{ .Params.soustitre }}</h2>
+		        <hr>
+	        </div>
+	            <div id="sticky-anchor"></div>
+
 	    </nav>
 
-	    </div>
 
 		<main>
 			<div class="container">
@@ -89,10 +86,12 @@
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='REDIRECT-URL.html';}"></iframe>
 
 	{{ partial "formulaire" .}}
-	
+
 	<div class="prefooter">
 	</div>
-	
+
+
+
 	{{ partial "footer.html" .}}
 
   </body>

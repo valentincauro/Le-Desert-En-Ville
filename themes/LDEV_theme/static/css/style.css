@@ -31,8 +31,8 @@ h1,h2,h3,h4,p{
 	content:'';
 	position: absolute;
 	width: 100%;
-    height:100%;
-    opacity:0.6;
+	height:100%;
+	opacity:0.6;
 	overflow: hidden;
 	background: url("/img/terre-rouge.jpg");
 	transition:opacity;
@@ -43,11 +43,11 @@ h1,h2,h3,h4,p{
 }
 
 .terrecrack{
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    opacity: 0.2;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	opacity: 0.2;
 	overflow: hidden;
 	background-image: url("/img/terre-crack.jpg");
  	background-size: cover;	
@@ -63,9 +63,9 @@ h1,h2,h3,h4,p{
 .home-2:before{
 	content:'';
 	position: absolute;
-    min-width: 100%;
-    height: 100vh;
-    opacity: 0.2;
+	min-width: 100%;
+	height: 100vh;
+	opacity: 0.2;
 	overflow: hidden;
 	background: url("/img/terre-crack.jpg");
  	background-size: cover;	
@@ -80,9 +80,9 @@ h1,h2,h3,h4,p{
 .home-3:before{
 	content:'';
 	position: absolute;
-    min-width: 100%;
-    height: 100vh;
-    opacity: 0.2;
+	min-width: 100%;
+	height: 100vh;
+	opacity: 0.2;
 	overflow: hidden;
 	background: url("/img/terre-crack.jpg");
  	background-size: cover;		
@@ -109,7 +109,7 @@ h1,h2,h3,h4,p{
 
 .intro-1, .intro-2, .intro-3{
 	top: 50vh;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
 	left:0;
 	right:0;
 	position:absolute;
@@ -154,32 +154,32 @@ h1,h2,h3,h4,p{
 
 .scroll{
 	bottom:0;
-    position: relative;
-    font-size: 1.3em;
-    display: block;
-    height: 100px;
-    opacity:0;
+	position: relative;
+	font-size: 1.3em;
+	display: block;
+	height: 100px;
+	opacity:0;
 	animation: apparition 1s;
 	animation-delay: 4s;
 	animation-fill-mode: forwards;
 }
 
 .scroll:after{
-    content: '';
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin: auto;
-    top: 10px;
-    right: 0;
-    left: 0;
-    -webkit-animation: 3s arrow infinite ease;
-    animation: 3s arrow infinite ease;
-    border-right: 1px solid #FFF;
-    border-bottom: 1px solid #FFF;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+	content: '';
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin: auto;
+	top: 10px;
+	right: 0;
+	left: 0;
+	-webkit-animation: 3s arrow infinite ease;
+	animation: 3s arrow infinite ease;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .buttonblanc{
@@ -217,10 +217,10 @@ h1,h2,h3,h4,p{
 	color:#000;
 	text-align: center;
 	text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 0.8em 0;
-    margin: 1.2em 0;
+	display: block;
+	width: 100%;
+	padding: 0.8em 0;
+	margin: 1.2em 0;
 	border-bottom:1px solid rgba(255, 255, 255, 0); 
 	transition:all .2s;
 
@@ -345,12 +345,12 @@ header{
 #miniheader{
 	display: none;
 	z-index: 99;
-    width: 100%;
-    left: 0;
-    height:50px;
-    position: fixed;
-    top: 0;
-    background-color: #404040;
+	width: 100%;
+	left: 0;
+	height:50px;
+	position: fixed;
+	top: 0;
+	background-color: #404040;
 }
 
 #miniheader .menu{
@@ -360,10 +360,10 @@ header{
 
 #miniheader .logoheader{
 	transform: scale(1);
-    vertical-align: top;
-    width: 320px;
-    height: 50px;
-    border: 10px solid #e66c3e;
+	vertical-align: top;
+	width: 320px;
+	height: 50px;
+	border: 10px solid #e66c3e;
 	background-image:url(/img/ldevlogoblancxxs.svg);
 	background-color:#E66C3E;
 }
@@ -379,11 +379,11 @@ header{
 	visibility: hidden;
 	transform: translateY(-50px);
 	z-index: 99;
-    width: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    transition: .3s;
+	width: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	transition: .3s;
 }
 
 #miniheader .menu{
@@ -394,16 +394,17 @@ header{
 }
 
 #miniheader .logoheader{
-    vertical-align: middle;
-    width: 320px;
-    height: 30px;
+	vertical-align: middle;
+	width: 320px;
+	height: 30px;
+	background-size:90%;
 	background-image:url(/img/ldevlogonoirxxs.svg);
 }
 #miniheader a.menu-item.active{
-    background-color: #f5f5f5;
-    font-weight: 400;
-    border-top: 1px solid #E66C3E;
-    color: #3c3c3c;
+	background-color: #f5f5f5;
+	font-weight: 400;
+	border-top: 1px solid #E66C3E;
+	color: #3c3c3c;
 }
 
 #miniheader a.menu-item, #miniheader a.menu-item.active{
@@ -433,12 +434,12 @@ header{
 
 .logoheader{
 	opacity: .8;
-	border:5px solid #ffffff;
 	margin-left: 10px;
 	vertical-align: middle;
 	display: inline-block;
 	width:205px;
 	height:110px;
+	background-size:90%;
 	background-repeat: no-repeat;
 	background-image: url("/img/ldevlogoheader2.svg");
 }
@@ -454,7 +455,7 @@ header{
 	width: calc( 100% + -260px);
 	position: relative;
 	display: inline-block;
-	text-align: right;
+	text-align: center;
 }
 
 .menu-item{
@@ -507,11 +508,11 @@ a.menu-item.active:hover {
 }
 
 footer{
-    z-index: 99;
-    margin-top: 0em;
-    width: 100%;
-    background-color: #404040;
-    position: relative;
+	z-index: 99;
+	margin-top: 0em;
+	width: 100%;
+	background-color: #404040;
+	position: relative;
 }
 
 footer:before{
@@ -534,7 +535,7 @@ footer:before{
 .footer-col{
 	vertical-align: top;
 	margin:0 30px;
-    display: inline-block;
+	display: inline-block;
 	color:#fff;
 	list-style: none;
 	padding-left:0;
@@ -568,7 +569,6 @@ footer:before{
 	text-decoration: none;
 	color:#B5B5B5;
 	text-transform: uppercase;
-
 }
 
 .footer .footer-sub a{
@@ -577,16 +577,16 @@ footer:before{
 	text-transform: uppercase;
 	margin-left:0;
 	margin: 2px 0;
-
 }
+
 .prefooter{
 	height: 170px;
-    background-color: #ffffff;
-    transform: rotate(-1.2deg);
-    position: relative;
-    top: -11px;
-    z-index: 87;
-    width: 110%;
+	background-color: #ffffff;
+/*	transform: rotate(-1.2deg);
+	width: 110%;*/
+	position: relative;
+	top: -10px;
+	z-index: 87;
 }
 
 .prefooter:before{
@@ -597,7 +597,8 @@ footer:before{
 }
 
 .menucrea{
-	padding: 40px 40px 0 40px;
+	margin-left:20px;
+	margin-top:50px;
 }
 
 a.menucrea-item.active{
@@ -668,14 +669,40 @@ a.menucrea-item:hover{
 }
 
 .menucrea hr{
-    color: #e66c3e;
-    background-color: #e66c3e;
-    width: 30%;
-    max-width: 320px;
-    margin-left:-1.5em;
-    margin-bottom: 2em;
+	color: #e66c3e;
+	background-color: #e66c3e;
+	width: 30%;
+	max-width: 320px;
+	margin-left:-1.5em;
+	margin-bottom: 2em;
 }
 
+.minicrea{
+	margin:0;
+	text-align: center;
+	border-bottom:2px solid #eaeaea;
+	padding:0 70px;
+	z-index: 150;
+	position: fixed;
+	top:50px;
+	background-color:#f5f5f5;
+	width: 100%
+}
+
+.minicrea a.menucrea-item{
+	margin-right:30px;
+	font-size:20px;
+	padding:10px;
+}
+
+.minicrea a.menucrea-item.active{
+	margin-right:30px;
+	float:inherit;
+}
+
+.minicrea h2, .minicrea hr{
+	display: none
+}
 .sidebar{
 	vertical-align: top;
 	display: inline-block;
@@ -710,12 +737,12 @@ a.menucrea-item:hover{
 }
 
 .sidebar hr{
-    width: 50%;
-    margin: 30px 0;
-    margin-left: 0;
-    color: #fafafa;
-    height: 3px;
-    background-color: #f7f7f7;
+	width: 50%;
+	margin: 30px 0;
+	margin-left: 0;
+	color: #fafafa;
+	height: 3px;
+	background-color: #f7f7f7;
 }
 
 .sidebar a{
@@ -729,14 +756,14 @@ a.menucrea-item:hover{
 }
 
 .sidebar a:before{
-    transform: rotate(180deg);
-    content: "\A";
-    border-style: solid;
-    border-width: 8px 11px 8px 0px;
-    border-color: transparent #e6774f transparent transparent;
-    position: absolute;
-    left: -5px;
-    top:3px;
+	transform: rotate(180deg);
+	content: "\A";
+	border-style: solid;
+	border-width: 8px 11px 8px 0px;
+	border-color: transparent #e6774f transparent transparent;
+	position: absolute;
+	left: -5px;
+	top:3px;
 }
 
 .sidebar a:hover{
@@ -748,9 +775,9 @@ a.menucrea-item:hover{
 	float:right;
 	vertical-align: top;
 	margin-left: 2vw;
-    width: 70%;
-    display: inline-block;
-    padding: 10px;
+	width: 70%;
+	display: inline-block;
+	padding: 10px;
 }
 
 .content img, .video{
@@ -767,7 +794,7 @@ a.menucrea-item:hover{
 main{
 	display: inline-block;
 	width:100%;
-	margin: 40px 0 10vh 0;
+	margin: 20px 0 10vh 0;
 	padding: 20px;
 }
 
@@ -803,12 +830,12 @@ main h4{
 }
 
 main hr{
-    color: #e66c3e;
-    background-color: #e66c3e;
-    width: 30%;
-    max-width: 320px;
-    margin-left:-1.5em;
-    margin-bottom: 4em;
+	color: #e66c3e;
+	background-color: #e66c3e;
+	width: 30%;
+	max-width: 320px;
+	margin-left:-1.5em;
+	margin-bottom: 4em;
 }
 
 main p{
@@ -827,9 +854,9 @@ p:empty {display:none;}
 
 
 .ateliers-liste{
-    display: inline-block;
-    width: 100%;
-    margin:2em 0;
+	display: inline-block;
+	width: 100%;
+	margin:2em 0;
 }
 
 .atelier-item{
@@ -899,9 +926,7 @@ color:black;}
 }
 
 .ateliernav span:hover{
-	color:#ffffff;
-
-	background-color: #E66C3E;
+/*	background-color: #E66C3E;*/
 	transition: width .2s ease-out;
 }
 
@@ -933,32 +958,32 @@ color:black;}
 	width: 100%;
 	height:100%;
 	display: block;
-    transition: margin .2s !important;
-    transition-delay: 80ms !important;
+	transition: margin .2s !important;
+	transition-delay: 80ms !important;
 }
 
 .card{
 	width: calc(( 99% / 3 ) - 20px);
 	margin: 0px 20px 20px 0px;
-    height: 100%;
-    display: inline-block;
+	height: 100%;
+	display: inline-block;
 }
 
 .front{
 	transition:all .2s;
 }
+
 .back{
 	color:#ffffff;
 	padding:20px;
 	cursor: pointer;
-	background-color:#E66C3E;
 }
 
 .back h3{
-    font-size: 1em;
-    font-weight: 200;
-    margin-top: 0px;
-    line-height: 1px;
+	font-size: 1em;
+	font-weight: 200;
+	margin-top: 0px;
+	line-height: 1px;
 }
 
 .back h2{
@@ -969,23 +994,23 @@ color:black;}
 	position: relative;
 	opacity:1;
 	z-index: 10;
-    font-size: calc(( .8em + .9vw) / 2);
-    color: #ffffff;
-    position: relative;
-    opacity: 1;
-    z-index: 10;
-    line-height: 1.8em;
-    margin-bottom:0;
-    font-weight: 200;
+	font-size: calc(( .8em + .9vw) / 2);
+	color: #ffffff;
+	position: relative;
+	opacity: 1;
+	z-index: 10;
+	line-height: 1.8em;
+	margin-bottom:0;
+	font-weight: 200;
 }
 
 .back hr {
 	color: #ffffff;
-    background-color: #ffffff;
-    width: 30%;
-    max-width: 320px;
-    margin-left: 0;
-    margin: 2em 0 2em 0;
+	background-color: #ffffff;
+	width: 30%;
+	max-width: 320px;
+	margin-left: 0;
+	margin: 2em 0 2em 0;
 }
 
 .back p a{
@@ -1040,22 +1065,22 @@ color:black;}
 	height:100%;
 	max-width: none;
 	opacity:1;
-    transition-delay: 50ms;
-    transition: all .4s;
+	transition-delay: 50ms;
+	transition: all .4s;
 }
 
 
 .voyageur-image:hover{
 	margin-top: -9.5vh;
 	cursor: pointer;
-    transition: margin .1s;
-    opacity:1;
+	transition: margin .1s;
+	opacity:1;
 }
 
 .voyageur-image:hover::after{
 	animation-delay:1s;
 	animation: opacity .1s;
-    opacity:1;
+	opacity:1;
 }
 
 
@@ -1090,21 +1115,21 @@ color:black;}
 .tete img{
 	opacity: .6;
 	object-fit: cover;
-    object-position: center;
+	object-position: center;
 }
 
 .intro-formulaire{
-    position: absolute;
-    background-color: rgba(255,255,255,.8);
-    z-index: 20;
-    width: 50%;
+	position: absolute;
+	background-color: rgba(255,255,255,.8);
+	z-index: 20;
+	width: 50%;
 	max-width: 600px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    padding: 5% 20px 30px 20px;
-    text-align: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 5% 20px 30px 20px;
+	text-align: center;
 }
 
 .intro-formulaire strong{
@@ -1123,8 +1148,8 @@ color:black;}
 	content:'';
 	position: absolute;
 	width: 100%;
-    height:100%;
-    opacity:0.2;
+	height:100%;
+	opacity:0.2;
 	overflow: hidden;
 	background: url("/img/terre-rouge.jpg");
 	transition:opacity;
@@ -1136,12 +1161,12 @@ color:black;}
 	font-family: 'Spectral', serif;
 	font-size:1.2em;
 	color:#FFF;
-    position: relative;
-    background-color: rgba(255,255,255,.1);
-    z-index: 20;
-    width: 50%;
-    margin: auto;
-    padding: 1em 20px 30px 20px;
+	position: relative;
+	background-color: rgba(255,255,255,.1);
+	z-index: 20;
+	width: 50%;
+	margin: auto;
+	padding: 1em 20px 30px 20px;
 }
 
 
@@ -1151,12 +1176,12 @@ form input{
 	color:#FFF !important;
 	height:40px;
 	margin-bottom: 10px;
-    width: 100%;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid #fff;
-    background-color: transparent;
+	width: 100%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
 }
 
 ::-webkit-input-placeholder{
@@ -1175,17 +1200,17 @@ form button{
 	font-family: 'Montserrat';
 	font-weight: 200;
 	letter-spacing: 1px;
-    border-width: 1px;
-    border-color: none;
-    border-image: initial;
-    display: block;
-    width: 30%;
-    padding: 10px 15px;
-    text-align: center;
-    margin: 1.5em auto .5em auto;
-    background-color: transparent;
-    border-color: #FFFFFF;
-    border-style: solid;
+	border-width: 1px;
+	border-color: none;
+	border-image: initial;
+	display: block;
+	width: 30%;
+	padding: 10px 15px;
+	text-align: center;
+	margin: 1.5em auto .5em auto;
+	background-color: transparent;
+	border-color: #FFFFFF;
+	border-style: solid;
 }
 
 form button:hover{
@@ -1195,26 +1220,26 @@ form button:hover{
 }
 
 .ecrits{
-    position: relative;
+	position: relative;
 	background: linear-gradient(transparent, transparent 29px, #ffffff 18px);
-    background-size: 30px 30px;
+	background-size: 30px 30px;
 }
 
 form textarea {
 	width: 100%;
 	height:auto;
-    border:none;
-    background-color:transparent;
-    display: block;
-    font-family: 'Spectral',cursive;
-    font-size: 18px;
-    color:#fff;
-    line-height: 30px;
-    margin: 2% auto;
-    resize: none;
-    min-height:100px;
-    color:#fff;
-    background-size: 100% auto;
+	border:none;
+	background-color:transparent;
+	display: block;
+	font-family: 'Spectral',cursive;
+	font-size: 18px;
+	color:#fff;
+	line-height: 30px;
+	margin: 2% auto;
+	resize: none;
+	min-height:100px;
+	color:#fff;
+	background-size: 100% auto;
 }
 
 form textarea:focus{
@@ -1236,10 +1261,10 @@ main .ateliernav h2 {
 
 main .ateliernav hr {
 	clear:inherit;
-    width: 20%;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 85px;
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 85px;
 }
 
 .contact .col50{
@@ -1294,9 +1319,9 @@ main .ateliernav hr {
 }
 
 .contact .formulaire .corps .ecrits{
-    position: relative;
+	position: relative;
 	background: linear-gradient(transparent, transparent 29px, #e4e4e4 18px);
-    background-size: 30px 30px;
+	background-size: 30px 30px;
 }
 
 .contact .formulaire .corps textarea{
@@ -1330,14 +1355,14 @@ main .ateliernav hr {
 }
 
 .info a:before{
-    transform: rotate(180deg);
-    content: "\A";
-    border-style: solid;
-    border-width: 6px 9px 6px 0px;
-    border-color: transparent #C64F24 transparent transparent;
-    position: absolute;
-    left: 0px;
-    top:3px;
+	transform: rotate(180deg);
+	content: "\A";
+	border-style: solid;
+	border-width: 6px 9px 6px 0px;
+	border-color: transparent #C64F24 transparent transparent;
+	position: absolute;
+	left: 0px;
+	top:3px;
 }
 
 .info a:hover{
@@ -1390,7 +1415,7 @@ svg path {
 
 @keyframes draw {
   to {
-    stroke-dashoffset: 0;
+	stroke-dashoffset: 0;
   }
 
 }
