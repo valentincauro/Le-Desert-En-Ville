@@ -430,6 +430,10 @@ header{
 	visibility: visible !important;
 }
 
+#miniheader .menu{
+	border-top:0;
+}
+
 .header-min{
 	display: none;
 }
@@ -483,7 +487,7 @@ a.menu-item.active:before{
 
 a.menu-item {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 16px;
 	text-decoration: none;
 	color: #4c4c4c;
@@ -497,11 +501,11 @@ a.menu-item:hover {
 	transition: transform .2s ease;
 	border-bottom: 1px solid #C64F24;
 	transition: border 1s ease;
-
 }
 
 
 a.menu-item.active {
+	font-weight: 300;
 	color:#000;
 }
 
@@ -610,7 +614,7 @@ a.menucrea-item.active{
 	font-family: 'Spectral', serif;
 	font-style: italic;
 	float:left;
-	font-weight: 200;
+	font-weight: 300;
 	font-variant: italic;
 	color: #C64F24; 
 	margin-right:25%;
@@ -623,11 +627,11 @@ a.menucrea-item.active:hover{
 
 
 a.menucrea-item{
-	color: #151515;
+	color: #4e4e4e;
 	font-style: italic;
 	font-size:22px;
 	font-family: 'Spectral', serif;
-	font-weight: 200;
+	font-weight: 300;
 	text-decoration: none;
 	display: inline-block;
 	transition: transform .2s ease;
@@ -639,10 +643,8 @@ a.menucrea-item{
 }
 
 a.menucrea-item {
-
 	margin-bottom: 0;
 	transition: .3s;
-
 }
 
 a.menucrea-item:empty {display:none;}
@@ -682,9 +684,8 @@ a.menucrea-item:hover{
 
 .minicrea{
 	margin:0;
-	text-align: center;
+	text-align: left;
 	border-bottom:2px solid #eaeaea;
-	padding:0 70px;
 	z-index: 150;
 	position: fixed;
 	top:50px;
@@ -706,6 +707,7 @@ a.menucrea-item:hover{
 .minicrea h2, .minicrea hr{
 	display: none
 }
+
 .sidebar{
 	vertical-align: top;
 	display: inline-block;
@@ -800,11 +802,11 @@ main{
 	margin: 20px 0 10vh 0;
 	padding: 20px;
 }
-
+/*
 main h1, main hr{
 	display: none;
 }
-
+*/
 main h1{
 	color: #C64F24;
 	font-size: 24px;
@@ -976,7 +978,8 @@ color:black;}
 	transition:all .2s;
 }
 
-.back{
+.retour{
+	background-color:transparent;
 	color:#ffffff;
 	padding:20px;
 	cursor: pointer;
@@ -997,12 +1000,12 @@ color:black;}
 	position: relative;
 	opacity:1;
 	z-index: 10;
-	font-size: calc(( .8em + .9vw) / 2);
+	font-size: calc(( .6em + .9vw) / 2);
 	color: #ffffff;
 	position: relative;
 	opacity: 1;
 	z-index: 10;
-	line-height: 1.8em;
+	line-height: 1.6em;
 	margin-bottom:0;
 	font-weight: 200;
 }
