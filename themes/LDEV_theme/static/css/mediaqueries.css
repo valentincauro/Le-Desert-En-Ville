@@ -208,6 +208,10 @@
 
 @media only screen and (max-width: 800px) {
 
+	.home-1{
+		height:100vh !important;
+	}
+
 	.container{
 		width:100%;
 	}
@@ -249,11 +253,11 @@
 
 	.hp .buttonblanc{
 		letter-spacing: 0;
-		font-weight: 300;
-		background-color: rgba(255, 255, 255, 0.06);
+		font-weight: 200;
+		background-color: transparent;
 		color: #ffffff;
 		display: block;
-		border:1px solid #ffffff;
+		border: 1px solid #ffffff;
 		margin: 3vh auto;
 		width: 80%;
 	}
