@@ -1,5 +1,4 @@
 +++
-draft = true
 soustitre = "Hôpital psychiatrique de Saint Alban"
 title = "Du souffle intîme TEST"
 weight = 2
