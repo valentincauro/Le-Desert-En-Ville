@@ -1,5 +1,4 @@
 +++
-draft = true
 soustitre = "Hôpital psychiatrique de Saint Alban"
 svg = "souffleintime"
 title = "Du souffle intîme au corps poétique"
