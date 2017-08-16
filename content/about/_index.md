@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Contact"
 weight = 4
 [menu.principal]
