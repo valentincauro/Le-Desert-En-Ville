@@ -1,7 +1,7 @@
 +++
 diapo1 = "Au cœur de la foule, des crissements et des cris… un silence.\nSous les décombres, détritus et restes de vie… un joyau.\nDans ma tête, mon cœur en panique, en furie, inondés de pensées chaotiques et de désirs désarmants… l’infini, la danse continue de mon souffle.\nLe Désert en Ville.\nLa Ville, mon chaos.\nLe Désert, mon silence, mon harmonie, ma plénitude.\nMes deux amours.\nIl est difficile de dire ce que l'on fait ;\nil est possible de balbutier le nom de ce que l'on cherche.\n​\nFil tendu entre deux pôles, sur lequel cheminent les pas fragiles de la création.\nL’art peut-il être le voyage en quête de ce lieu où dedans s’accorde avec dehors, où la parole est une, unie, unifiante ?\n\n"
 diapo2 = "Le bruissement du vent dans le désert \nressemble aux pas légers d'un homme.\nIl donne l'impression qu'un être mystérieux\nmarche en permanence près de vous.\nÇa fait d'abord un peu peur.\nMais en fait c'est le signe \n \n           - une confidence soufflée\n             dans le creux de l'oreille -\n                                       \nque l'on n'est jamais seul.\n \nMême entouré de sable,\n    et de sable,\n    à perte de vue.\n"
-title = "Ateliers"
+title = "Acceuil"
 type = "page"
 
 +++
