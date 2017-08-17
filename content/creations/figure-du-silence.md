@@ -4,6 +4,8 @@ title = "Figure du Silence"
 soustitre = "Performance déambulatoire"
 weight = "3"
 url = "/creations/figure-du-silence/"
+vimeo = ""
+vimeo2 = ""
 [menu.principal]
 parent = "creations"
 [menu.crea]
