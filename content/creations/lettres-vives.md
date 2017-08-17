@@ -1,18 +1,13 @@
 +++
 lieu = "Théâtre du Réel"
 weight = "1"
-vimeo = "222698494"
-vimeo2 = ""
 soustitre = "Spectacle"
 title = "Lettres Vives"
 url = "/creations/lettres-vives/"
 vimeo = 222698494
-weight = 1
 [menu.crea]
-weight = 1
 [menu.principal]
 parent = "creations"
-weight = 1
 
 +++
 >D’après Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980, Éditions Encre et Lumière.
