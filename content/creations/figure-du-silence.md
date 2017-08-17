@@ -2,6 +2,8 @@
 soustitre = "Performance déambulatoire"
 title = "Figure du Silence"
 url = "/creations/figure-du-silence/"
+vimeo = ""
+vimeo2 = ""
 weight = 3
 [menu.crea]
 weight = 3

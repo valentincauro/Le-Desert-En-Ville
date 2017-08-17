@@ -57,10 +57,6 @@
 		margin: 10px 15px;
 	}
 
-	.logoheader:hover{
-		background-image: url(/img/ldevlogoheader2.svg);
-	}
-
 	.sidebar blockquote:before{
 		display: none;
 	}
@@ -74,10 +70,6 @@
 		top:0 !important;
 	}
 
-	#miniheader a.menu-item, #miniheader a.menu-item.active {
-		padding:15px 19px;
-	}
-
 	.header-min{
 		top:0;
 		z-index: 99;
@@ -89,13 +81,10 @@
 	}
 
 	.menucrea{
+		background-color:#ffffff;
 		margin:0;
-		text-align: center;
-		border-bottom:2px solid #eaeaea;
-		padding:0 10px;
 		z-index: 150;
 		top:50px;
-		background-color:#f5f5f5;
 		width: 100%
 	}
 
@@ -107,71 +96,35 @@
 
 	.menucrea a.menucrea-item.active{
 		margin-right:30px;
+	    padding: 10px 30px;
+		background-color: #e2683c;
 		float:inherit;
+		color:#ffffff;
 	}
 
 	.menucrea h2, .menucrea hr{
 		display: none
 	}
 
-
-	.logoheader{
-	    margin-left: 20px;
-	}
-
 	a.menu-item{
 		font-size:16px;
 	    margin: 0;
-	    padding: 43px 20px;
+	    padding: 40px 20px;
 	}
 
 	a.menu-item.active{
-		background-color:#f5f5f5;
+		background-color:#3c3c3c;
 	    font-weight: 300;
-		color: #000000;
+		color: #ffffff;
 	}
 	.menu-item.active:before{
 		top:20px;
 	}
 
-
-/*
-	.menucrea{
-	    width: 100%;
-	    z-index: 50;
-   		padding: 0;
-   		top: 90px;
-	    background-color: #F8F8F8;
+	.menu{
+		margin-left:5vw;
 	}
 
-	.menucrea h1{
-		font-size:20px;
-	}
-
-	.menucrea h2{
-		display: none;
-	}
-
-	.menucrea hr{
-		display: none;
-	}
-
-	a.menucrea-item{
-		padding:15px;
-		margin-right:0px;
-		font-size:18px;
-	}
-
-	a.menucrea-item.active{
-		background-color: #C64F24;
-		color: #ffffff;
-		font-size:18px;
-		padding:15px 30px;
-		margin-left: 0px;
-		margin-right: 0px;
-		font-weight: 300 !important;
-	}
-*/
 	.sidebar{
 		width: 100%;
 		padding:0px;
@@ -203,10 +156,19 @@
 	.content img, .video{
 		padding:0;
 	}
+
+	#miniheader a.menu-item, #miniheader a.menu-item.active {
+	    padding: 15px 20px;
+	}
+
 }
 
 
 @media only screen and (max-width: 800px) {
+
+	body{
+		border: none;
+	}
 
 	.home-1{
 		height:100vh !important;
@@ -223,19 +185,16 @@
 	}
 
 	.logoheader{
-	    opacity: .8;
 	    margin-left: 0;
 	    height: 110px;
-	    position: relative;
 	    border: none;
 	    background-size:35%;
 	    background-position: center;
 	    transform: scale(1);
 	}
 
-
-	.logoheader:hover{
-		background-image: url(/img/ldevlogoblancxxs.svg);
+	.logoterre{
+		width:100%;
 	}
 
 	.logoheader, .menu{
@@ -274,19 +233,14 @@
 	}
 
 	header .menu{
-		border-top:2px solid #fafafa;
 		width: 100%;
 		margin:0;
 		text-align: center;
+		border-top:2px solid #3c3c3c;
 	}
 
 	.header .menu{
 		border-top: 2px solid #f5f5f5;
-	}
-
-	a.menu-item.active{
-		border-top: 1px solid #e66c3e;
-	    background-color: #f5f5f5;
 	}
 
 	a.menu-item.active:before{
@@ -300,7 +254,7 @@
 	}
 
 	.minicrea{
-		top:43px;
+		top: 53px;
 	}
 
 	.menucrea a.menucrea-item, .menucrea a.menucrea-item.active{
@@ -318,7 +272,7 @@
 		width: 100%
 	}
 
-	#miniheader .logoheader{
+	#miniheader .logoterre{
 		display: none;
 	}
 
@@ -468,10 +422,6 @@
 
 @media only screen and (max-width: 520px) {
 
-	body{
-		border: none;
-	}
-
 	main{
 		padding: 20px;
 	}
@@ -480,10 +430,13 @@
 		font-size:1.1em;
 	}
 
+	.logoterre{
+		height:80px;
+	}
+
 	.logoheader{
-		background-image:url(/img/ldevlogonoirxxs.svg);
-		height:70px;
-		background-size:75%;
+		background-size:45%;
+		height:80px;
 	}
 
 	#miniheader{
@@ -517,11 +470,6 @@
 	    padding: 7px 5px;
 	}
 
-	.menucrea a.menucrea-item.active{
-		background-color: transparent;
-		color: #e66c3e;
-	}
-
 	a.menucrea-item.white{
 		display: none;
 	}
@@ -548,12 +496,17 @@
 		display: none;
 	}
 
+	.minicrea{
+		top:44px;
+	}
+
 }
 
 @media only screen and (max-width: 490px) {
 
+
 	.logoheader{
-	    height: 100px;
+    	background-image:url(/img/ldevlogoblancxxs.svg);
 		background-size: 85%;
 	}
 

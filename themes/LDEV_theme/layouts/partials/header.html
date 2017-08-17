@@ -36,7 +36,9 @@
   <div class="container">
 
         <div>
-        	<a class="logoheader" href="{{ .Site.BaseURL }}"></a>
+            <div class="logoterre">
+        	   <a class="logoheader" href="{{ .Site.BaseURL }}"></a>
+            </div>
           	<nav class="menu">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.principal }}
@@ -54,8 +56,9 @@
     <div id="miniheader">
 
         <div class="container">
-
-            <a class="logoheader" href="{{ .Site.BaseURL }}"></a>
+            <div class="logoterre">
+                <a class="logoheader" href="{{ .Site.BaseURL }}"></a>
+            </div>
             <nav class="menu">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.principal }}
