@@ -1,12 +1,12 @@
 +++
-title = "Du souffle intîme TEST"
 soustitre = "Hôpital psychiatrique de Saint Alban"
-weight = "2"
+title = "Du souffle intîme TEST"
+weight = 2
 [menu.principal]
 parent = "ateliers"
+weight = 2
 
 +++
-
 Projet « Culture à l’Hôpital » 2015 – soutenu par la DRAC Languedoc-Roussillon, au centre hospitalier François Tosquelles – berceau de la psychothérapie institutionnelle et foyer d’art brut. 
 
 Sur une saison – la montée du printemps – nous sommes intervenus en résidence à l’hôpital de Saint-Alban, juché sur les hauteurs lozériennes et lieu de passage du chemin de Saint-Jacques.

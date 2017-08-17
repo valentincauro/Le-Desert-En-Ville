@@ -1,17 +1,19 @@
 +++
-
-title = "Voix des Femmes d’Afrique"
 soustitre = "Récital poétique/Concert"
 weight = "2"
 vimeo = "188274638"
 vimeo2 = ""
+title = "Voix des Femmes d’Afrique"
 url = "/creations/voix-des-femmes-d-afrique/"
+vimeo = 188274638
+weight = 2
+[menu.crea]
+weight = 2
 [menu.principal]
 parent = "creations"
-[menu.crea]
+weight = 2
 
 +++
-
 >D’après Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980, Éditions Encre et Lumière.
 
 **Une actrice, un musicien, du papier, de l’encre, des voix.**

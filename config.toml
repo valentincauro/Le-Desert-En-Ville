@@ -1,28 +1,21 @@
 baseURL = "http://www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com/"
-title = "le Désert en Ville — Espace de Création Hors-sol"
-theme = "LDEV_theme"
 canonifyURLs = true
-
-
-[[menu.main]]
-    name = "CRÉATIONS"
-    weight = 1
-	url = "/creations/lettres-vives/"
-
-[[menu.main]]
-    name = "ATELIERS"
-    weight = 2
-	url = "/ateliers/"
-
-[[menu.main]]
-    name = "VOYAGEURS"
-    weight = 3
-	url = "/voyageurs/"
-
-[[menu.main]]
-    name = "CONTACT"
-    weight = 4
-	url = "/about/"
-
-
+theme = "LDEV_theme"
+title = "le Désert en Ville — Espace de Création Hors-sol"
 [[menu.crea]]
+[[menu.main]]
+name = "CONTACT"
+url = "/about/"
+weight = 4
+[[menu.main]]
+name = "VOYAGEURS"
+url = "/voyageurs/"
+weight = 3
+[[menu.main]]
+name = "ATELIERS"
+url = "/ateliers/"
+weight = 2
+[[menu.main]]
+name = "CRÉATIONS"
+url = "/creations/lettres-vives/"
+weight = 1

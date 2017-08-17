@@ -1,17 +1,17 @@
 +++
-
-title = "Figure du Silence"
 soustitre = "Performance déambulatoire"
-weight = "3"
+title = "Figure du Silence"
 url = "/creations/figure-du-silence/"
 vimeo = ""
 vimeo2 = ""
+weight = 3
+[menu.crea]
+weight = 3
 [menu.principal]
 parent = "creations"
-[menu.crea]
+weight = 3
 
 +++
-
 >Une figure inspirée de la sculpture – « art vivant silencieux » – crée un espace autre, par la seule présence qui joue de l’absence… de mots !*
 
 
