@@ -7,6 +7,7 @@ weight = 3
 weight = 3
 [menu.principal]
 parent = "creations"
+weight = 3
 
 +++
 >Une figure inspirée de la sculpture – « art vivant silencieux » – crée un espace autre, par la seule présence qui joue de l’absence… de mots !*
