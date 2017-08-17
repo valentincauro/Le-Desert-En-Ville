@@ -2,7 +2,6 @@
 soustitre = "Récital poétique/Concert"
 weight = "2"
 vimeo = "188274638"
-vimeo2 = ""
 title = "Voix des Femmes d’Afrique"
 url = "/creations/voix-des-femmes-d-afrique/"
 vimeo = 188274638

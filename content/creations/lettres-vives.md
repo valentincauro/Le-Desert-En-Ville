@@ -2,7 +2,6 @@
 lieu = "Théâtre du Réel"
 weight = "1"
 vimeo = "222698494"
-vimeo2 = ""
 soustitre = "Spectacle"
 title = "Lettres Vives"
 url = "/creations/lettres-vives/"
