@@ -1,7 +1,10 @@
 +++
 lieu = "Théâtre du Réel"
+<<<<<<< HEAD
 weight = "1"
 vimeo = "222698494"
+=======
+>>>>>>> 7697b9900b62c42f06a29d4a765f9216dfeb6cd6
 soustitre = "Spectacle"
 title = "Lettres Vives"
 url = "/creations/lettres-vives/"
