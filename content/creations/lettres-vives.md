@@ -1,22 +1,16 @@
 +++
-lieu = "Théâtre du Réel"
-<<<<<<< HEAD
-weight = "1"
-vimeo = "222698494"
-=======
->>>>>>> 7697b9900b62c42f06a29d4a765f9216dfeb6cd6
-soustitre = "Spectacle"
 title = "Lettres Vives"
+lieu = "Théâtre du Réel"
+weight = "1"
+soustitre = "Spectacle"
 url = "/creations/lettres-vives/"
 vimeo = 222698494
-weight = 1
 [menu.crea]
-weight = 1
 [menu.principal]
 parent = "creations"
-weight = 1
 
 +++
+
 >D’après Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980, Éditions Encre et Lumière.
 
 **Une actrice, un musicien, du papier, de l’encre, des voix.**
