@@ -51,12 +51,13 @@
 
 					{{ if .Params.vimeo }}
 						<div class="video">
-						  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+						  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo }}?autoplay=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 					{{ end }}
+					
 					{{ if .Params.vimeo2 }}
 						<div class="video">
-						  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo2 }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+						  <iframe width="560" height="315" src="https://player.vimeo.com/video/{{ .Params.vimeo2 }}?autoplay=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 					{{ end }}
 					{{ partial "gallery.html" .}}

@@ -15,7 +15,7 @@
           <div class="intro-1">
             <h1>
               <a href="/creations/lettres-vives/">
-                <img class="logo" src="/images/ldevlogoblanc.svg">
+                <img class="logo">
               </a>
             </h1>
             <h2>Compagnie d'Art Vivant</h2>
@@ -43,7 +43,9 @@
 
             <div class="w50 txtleft inbl pam">
               <p>
-                {{ .Params.diapo1 }}
+                {{range where .Site.Pages "Type" "=" "diapo1"}} 
+                  {{ .Content }} 
+                {{ end }}
               </p>
             </div>
 
@@ -86,7 +88,9 @@
 
                 <div class="w50 txtleft inbl pam valigncentre">
               <p>
-                {{ .Params.diapo2 }}
+                {{range where .Site.Pages "Type" "=" "diapo2"}} 
+                  {{ .Content }} 
+                {{ end }}
               </p>
             </div>
 
