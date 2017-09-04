@@ -1,6 +1,6 @@
 +++
 fonction = "Musicien"
-title = "Thylda Bares"
+title = "Simon Winse"
 weight = 2
 [menu.principal]
 parent = "voyageurs"
