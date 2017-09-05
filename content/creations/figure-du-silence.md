@@ -1,5 +1,5 @@
 +++
-soustitre = "Performance déambulatoire"
+soustitre = "Performance "
 title = "Figure du Silence"
 url = "/creations/figure-du-silence/"
 weight = 3
@@ -10,14 +10,22 @@ parent = "creations"
 weight = 3
 
 +++
->Une figure inspirée de la sculpture – « art vivant silencieux » – crée un espace autre, par la seule présence qui joue de l’absence… de mots !*
+<blockquote>
+<p>Une femme, navigant entre présence et absence. Présence de l'être, absence des mots, inspirée de la sculpture, « art vivant silencieux ». <br></p>
+</blockquote>
+
+**Déambulation possible dans différents types de lieux : musées, expositions, événements extérieurs et intérieurs, etc.**
+
+Dans l’épure, s'ouvre la possibilité d’une rencontre au-delà du langage, et la proposition d’écouter, dans la terre, la glaise, dans la profondeur de cet élément sourd qui nous fonde, le silence. Espace vide sans contour, sans limite.
+
+*Ecoute... le silence ne siège pas sur l'absence de son. Il ne s'oppose pas à l'éclat des voix, aux bruits multiples de l'existence. Il se cherche en creux, au milieu d'eux, dans l'auréole d'une présence, dans un regard versé à un autre regard, sur une ligne scindant l'espace entre mille obstacles qui les séparent. Le silence peut hurler, peut se taire, peut s'écouter. Argile, terre glaise dans les paumes, trace de l'élément sourd, discret. Je plonge dans une peau autre.*
 
 
-Dans l’épure, la possibilité d’une rencontre par le regard, et la proposition d’écouter le silence, dans l’argile symbolique de l’élément sourd qui nous fonde. Le silence – vide offert pour tous les possibles. 
 
-**Performance non limitée dans le temps, pouvant déambuler dans des lieux d’exposition.**
+<hr>
 
-___
 #### Interprétation : Juliette Kempf
-### Costume (en cours de création) : Anouk Albert
-___
+
+#### Costume (en cours de création) : Anouk Albert
+
+<hr>
