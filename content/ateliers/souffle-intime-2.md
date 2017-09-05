@@ -1,14 +1,12 @@
 +++
-soustitre = "FAM Sainte-Geneviève, Paris"
-title = "Ateliers test"
+soustitre = "CHU de Nantes, pôle psychiatrie"
+title = "Partenariat autour des Lettres Vives"
 weight = 3
 [menu.principal]
 parent = "ateliers"
 weight = 3
 
 +++
-Action Culturelle au FAM Sainte-Geneviève (Paris 14) de février 2017 à mars 2018, en vue de la création d’une œuvre collective avec des personnes résidentes cérébro-lésées.
-Juliette Kempf, comédienne et danseuse, propose des ateliers où une grande attention est portée au corps, au souffle et à l’instant pour parvenir à l’éclosion d’une expression poétique propre à chacun. Le travail se fait de façon à la fois intime et collective. Le groupe entre peu à peu dans un rythme commun, support de la créativité dans ses multiples manifestations, développant le mouvement, le chant, le texte, suivant la dynamique des participants.
 
-Seule ou accompagnée d’un musicien multi-instrumentiste, elle peut intervenir de façon régulière (hebdomadaire) ou sur des temps forts (résidences ou mini-résidences), autour d’un projet conçu et élaboré en lien avec l’équipe de la structure accueillante.
-	
+
+Juillet / Août 2017 : Résidence artistique au CHU de Nantes autour de la création du spectacle "Lettres Vives". Des ateliers ont initié les patients et les soignants au processus artistique de la compagnie. Des enregistrements ont eu lieu, à l'hôpital, au cours desquels patients, infirmiers, médecins, internes, cadres de santé ont prêté leurs voix aux lettres de Volterra, dans un acte de mémoire, et de relation présente à leurs propres voix.
