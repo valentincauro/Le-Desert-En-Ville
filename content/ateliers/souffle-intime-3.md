@@ -1,19 +1,16 @@
 +++
-soustitre = "Hôpital psychiatrique de Saint Alban"
-title = "Du souffle intîme TEST"
+soustitre = "FAM Sainte-Geneviève, Paris"
+title = "Art Vivant au Foyer d'Accueil Médicalisé"
 weight = 2
 [menu.principal]
 parent = "ateliers"
 weight = 2
 
 +++
-Projet « Culture à l’Hôpital » 2015 – soutenu par la DRAC Languedoc-Roussillon, au centre hospitalier François Tosquelles – berceau de la psychothérapie institutionnelle et foyer d’art brut. 
+Depuis février 2017, une intervention régulière a lieu au Foyer d'Accueil Médicalisé Sainte-Geneviève, où vivent des personnes cérébro-lésées. Nous préparons, avec un groupe de résidents, un spectacle ouvert au public qui se présentera au sein du FAM, en mars 2018.
 
-Sur une saison – la montée du printemps – nous sommes intervenus en résidence à l’hôpital de Saint-Alban, juché sur les hauteurs lozériennes et lieu de passage du chemin de Saint-Jacques.
+*Comment décrire, comment traduire ses yeux silencieux, ses yeux remplis de ciel qui se tournent vers moi et qui me disent : j'y vais. La pointe de ses petits pieds prennent appui sur le sol et commencent à faire rouler son modeste fauteuil noir. À cet instant, l'air de la pièce change, des bouffées de coton contre nos peaux. Nous retenons nos souffles. Elle glisse jusqu'à l'autre bout de la pièce. C'est une danse au-dessus du sol. C'est un chant d'avant tous les chants. Elle se retourne, au rythme de ses baskets blanches et lègères, pirouettant sur le lino. Visage. Ces yeux qui ne disent mot racontent le tout, de nos vies et de la sienne, nous emportant avec elle dans cet espace qui vole au-delà du temps, où l'avant et l'après discrètement s'effacent au profit du tissu soyeux de l'instant.*
 
-> *Nous avons travaillé avec les patients de plusieurs secteurs, des infirmiers, des personnes de l’administration et des personnes extérieures à l’hôpital.*
+*Rien d'autre pour être qu'à être.*
 
-Les ateliers intégraient la prise de conscience corporelle et le mouvement, la voix chantée et parlée, le rythme au son d’instruments traditionnels d’Afrique de l’Ouest ; la rencontre de tous ces éléments créant une matière malléable pour de véritables célébrations d’art vivant.
-Conception : Juliette Kempf
-Réalisation : Juliette Kempf et Simon Winsé
-
+*Leçon d'existence.*
