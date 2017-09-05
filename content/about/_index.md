@@ -6,8 +6,6 @@ identifier = "about"
 weight = 4
 
 +++
-
-
 ### LE DÉSERT EN VILLE - ASSOCIATION LOI 1901
 
 #### ESPACE DE CRÉATION HORS-SOL
