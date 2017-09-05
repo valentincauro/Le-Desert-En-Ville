@@ -24,7 +24,7 @@ weight = 1
 **de l’encre**  
 **des voix.**  
 
-***Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.***
+*Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
 
 Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre vie aux lettres mortes. Saisir ce qu’à travers elles, j’entends aujourd’hui de mon propre enfermement, de ma quête de liberté et de ma quête de l’autre.
 
