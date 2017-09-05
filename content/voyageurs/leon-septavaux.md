@@ -1,6 +1,8 @@
 +++
+date = "2017-09-03T21:34:00+00:00"
+draft = true
 fonction = "xxx"
-title = "Leon Septavaux"
+title = "Léon Septavaux"
 weight = 3
 [menu.principal]
 parent = "voyageurs"
@@ -8,6 +10,4 @@ url = "/voyageurs/"
 weight = 3
 
 +++
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra vehicula risus eu finibus. Fusce nec vulputate tellus, quis scelerisque tellus. In scelerisque dapibus purus, sodales hendrerit ante tristique in. Sed sit amet ligula at ipsum commodo venenatis. Morbi aliquam eros purus, at commodo arcu hendrerit in. Phasellus eget tortor laoreet, fringilla elit vel, malesuada erat. Mauris bibendum tellus elit, non dignissim purus mollis quis. Aliquam venenatis eleifend leo, et sagittis magna rutrum vel. (500)
-
-[Lien vers une page](static/dl/blabla.pdf)
+Léon est un jeune compositeur, sound designer, et field recordiste de passion. Entre 2010 et 2013, il se forme à l'école de musique actuelle ATLA (Paris) et obtient un diplôme de « Musicien MAO – Musique électronique ». Il étudie ensuite un an en composition électroacoustique / acousmatique au Conservatoire Érik Satie où il apprend davantage sur la création et la manipulation sonore. En 2013, il crée Materjal, son projet soliste qui réunit ses performances en live, ses morceaux, et ses commandes de l'ordre du sound design. Avec le projet « Lettres Vives », il s’ouvre à la réalisation sonore pour le théâtre.
