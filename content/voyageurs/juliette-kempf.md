@@ -1,5 +1,5 @@
 +++
-fonction = "Fondatrice & Metteuse en scène"
+fonction = "Fondatrice & Metteure en scène"
 title = "Juliette Kempf"
 weight = 1
 [menu.principal]
@@ -8,6 +8,8 @@ url = "/voyageurs/"
 weight = 1
 
 +++
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra vehicula risus eu finibus. Fusce nec vulputate tellus, quis scelerisque tellus. In scelerisque dapibus purus, sodales hendrerit ante tristique in. Sed sit amet ligula at ipsum commodo venenatis. Morbi aliquam eros purus, at commodo arcu hendrerit in. Phasellus eget tortor laoreet, fringilla elit vel, malesuada erat. Mauris bibendum tellus elit, non dignissim purus mollis quis. Aliquam venenatis eleifend leo, et sagittis magna rutrum vel. (500)
+
+
+Ayant pratiqué la danse, le butô, et le théâtre laboratoire, Juliette nourrit une relation profonde au corps depuis ses premières créations. Imprégnée par plusieurs voyages au désert, notamment le Sahara mauritanien où elle vit en 2012, elle ressent la nécessité d'une mise à nu dans le processus artistique. Elle étudie l'anthropologie spirituelle. Elle conçoit le spectacle comme un temps privilégié, pour l'artiste et pour le spectateur, de rencontre avec soi, l'inconnu que nous sommes ; où produire et recevoir se rejoignent dans une contemplation active.
 
 [Site Perso](static/dl/blabla.pdf) [Facebook](static/dl/blabla.pdf)
