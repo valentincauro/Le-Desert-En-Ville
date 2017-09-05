@@ -88,6 +88,10 @@ h1,h2,h3,h4,p{
  	background-size: cover;		
 }
 
+a img {
+    outline: none;
+    border: none;
+}
 
 .intro-1 .logo{
 	background-image: url("/img/ldevlogoblanc.svg");
