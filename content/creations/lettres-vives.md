@@ -18,10 +18,10 @@ weight = 1
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
 </blockquote>
 
-**Une actrice,
-un musicien,
-du papier,
-de l’encre,
+**Une actrice,  
+un musicien,  
+du papier,  
+de l’encre,  
 des voix.**
 
 <b>*Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*</b>
@@ -47,12 +47,7 @@ Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre 
 ### Léon Septavaux
 
 <hr>
-
-Une actrice  
-Un musicien  
-Du papier  
-De l'encre  
-Des voix  
+ 
 
 **Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : enregistrement de lettres du recueil avec les patients et les soignants, servant de base aux bandes sonores.**
 
