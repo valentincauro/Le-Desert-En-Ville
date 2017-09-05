@@ -1,13 +1,15 @@
 +++
-fonction = "xxx"
-title = "Thylda Bares"
-weight = 4
+fonction = "Regard extérieur sur \"Lettres Vives\""
+title = "Thylda Barès"
+weight = 3
 [menu.principal]
 parent = "voyageurs"
 url = "/voyageurs/"
 weight = 4
 
 +++
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra vehicula risus eu finibus. Fusce nec vulputate tellus, quis scelerisque tellus. In scelerisque dapibus purus, sodales hendrerit ante tristique in. Sed sit amet ligula at ipsum commodo venenatis. Morbi aliquam eros purus, at commodo arcu hendrerit in. Phasellus eget tortor laoreet, fringilla elit vel, malesuada erat. Mauris bibendum tellus elit, non dignissim purus mollis quis. Aliquam venenatis eleifend leo, et sagittis magna rutrum vel. (500)
 
-[Lien vers une page](static/dl/blabla.pdf)
+
+Thylda commence très tôt le cinéma avant de se former en chant lyrique à la Maîtrise de Paris. Elle continue dans une école supérieure de théâtre à Londres, travaille au Brésil et à New York. Elle revient en France pour faire l'école Jacques Lecoq. Cette même année, elle rencontre Juliette Kempf lors d'une résidence à l'Abbaye de Pontigny. Elles poursuivent leur collaboration au Théâtre Observatoire International avec le metteur en scène russe Sergei Kovalevich.Thylda est comédienne, et assistante à la mise en scène dans plusieurs compagnies.
+
+Lien vers une page
