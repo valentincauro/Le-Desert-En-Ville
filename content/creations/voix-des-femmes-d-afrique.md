@@ -9,31 +9,25 @@ parent = "creations"
 weight = 2
 
 +++
->D’après Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980, Éditions Encre et Lumière.
+<blockquote>
+<p>Textes tirés de l'Anthologie <em>Voix de Femmes - poèmes et photographies du monde entier</em>, Editions Turquoise. Créé dans le cadre du Printemps des Poètes 2017.</p>
+</blockquote>
 
-**Une actrice, un musicien, du papier, de l’encre, des voix.**
+Sur quelques mètres carrés, des voix humaines et instrumentales portent la parole parfois inédite de poétesses du continent africain. Son immédiateté, son quotidien, son mystère. Ce spectacle dépouillé ouvre une fenêtre intime pour évoquer l'ombre et la lumière, la dureté mêlée d'espoir.
 
-*Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
+**Disponible pour tout type de lieux, intérieurs et extérieurs, et chez l'habitant.**
 
-Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre vie aux lettres mortes. Saisir ce qu’à travers elles, j’entends aujourd’hui de mon propre enfermement, de ma quête de liberté et de ma quête de l’autre.
+<hr>
+
+### Interprétation
+
+#### Juliette Kempf
 
 
-___
-#### Mise en scène et interprétation
-### Juliette Kempf
+### Musique
 
-#### Musique
-### Simon Winsé
+#### Simon Winsé : musique traditionnelle d'Afrique de l'Ouest
 
-#### Regard
-### Thylda Bares
+ou 
 
-#### Réalisation sonore
-### Léon Septavaux
-___
-
-**Spectacle co-produit par le CHU de Nantes, service psychiatrie, pour l’enregistrement des bandes sonores.**
-
-Soutiens et accueils en résidence de création : La Voix du Griot, Le Silo (réseau Actes-IF), Mairie de La Possonnière (49), Mairie de Mende (48).
-
-[Télécharger le dossier](static/dl/blabla.pdf)
+#### Toups Bebey : Afriques, jazz et malice
