@@ -1,4 +1,6 @@
 ---
+pages:
+- creations/test-val.md
 hide_body: false
 fields:
 - type: image_gallery
