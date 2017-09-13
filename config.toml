@@ -1,6 +1,4 @@
 baseURL = "www.ledesertenville.com"
-
-
 theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
 [[menu.crea]]
