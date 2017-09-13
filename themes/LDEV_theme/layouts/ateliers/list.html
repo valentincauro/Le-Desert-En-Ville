@@ -16,7 +16,7 @@
 				<p>{{ .Content }}</p>
 				<div class="ateliers-liste">
 					{{ range .Data.Pages.ByWeight }}
-					  	<a href="{{ .Permalink }}" class="atelier-item">
+					  	<a href="{{ .URL }}" class="atelier-item">
 							<div class="atelierimg">
 								<img src="/images/{{ .File.BaseFileName }}-thmb.jpg"></img>
 							</div>
