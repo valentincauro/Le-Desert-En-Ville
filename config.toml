@@ -1,6 +1,6 @@
 baseURL = "www.ledesertenville.com"
-canonifyURLs = false
-relativeurls = false
+canonifyURLs = true
+relativeurls = true
 
 theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
