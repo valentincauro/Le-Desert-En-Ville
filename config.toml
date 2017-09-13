@@ -1,4 +1,4 @@
-baseURL = "http://www.ledesertenville.com/"
+baseURL = "www.ledesertenville.com"
 canonifyURLs = "true"
 relativeurls = "true"
 theme = "LDEV_theme"
