@@ -1,6 +1,6 @@
 baseURL = "www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com"
-relativeurls = "true"
 canonifyurls = "true"
+relativeurls = "true"
 theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
 [[menu.crea]]
