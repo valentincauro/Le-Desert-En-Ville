@@ -917,7 +917,10 @@ color:black;}
 
 .ateliernav span {
 	margin-right:2em;
-	content:url("/img/back.svg");
+	background-image:url("/img/back.svg");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
 	width:55px;
 	height:70px;
 	float:left;
