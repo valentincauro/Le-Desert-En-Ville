@@ -1,4 +1,4 @@
-baseURL = "www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com"
+baseURL = "www.ledesertenville.com"
 canonifyurls = "true"
 relativeurls = "true"
 theme = "LDEV_theme"
