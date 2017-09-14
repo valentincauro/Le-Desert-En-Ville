@@ -4,6 +4,7 @@ canonifyURLs = "true"
 
 theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
+uglyurls = "true"
 [[menu.crea]]
 [[menu.main]]
 name = "CONTACT"
