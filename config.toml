@@ -3,6 +3,10 @@ theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
 [[menu.crea]]
 [[menu.main]]
+name = "CRÉATIONS"
+url = "/creations/lettres-vives/index.html"
+weight = 1
+[[menu.main]]
 name = "CONTACT"
 url = "/about/"
 weight = 4
@@ -14,7 +18,3 @@ weight = 3
 name = "ATELIERS"
 url = "/ateliers/"
 weight = 2
-[[menu.main]]
-name = "CRÉATIONS"
-url = "/creations/lettres-vives/index.html"
-weight = 1
