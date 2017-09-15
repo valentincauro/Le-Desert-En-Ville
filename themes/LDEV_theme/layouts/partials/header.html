@@ -37,12 +37,12 @@
 
         <div>
             <div class="logoterre">
-        	   <a class="logoheader" href="{{ .Site.BaseURL"></a>
+        	   <a class="logoheader" href="{{ .Site.BaseURL | absURL }}"></a>
             </div>
           	<nav class="menu">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.principal }}
-                <a class="menu-item{{if or ($currentPage.IsMenuCurrent "principal" .) ($currentPage.HasMenuCurrent "principal" .) }} active{{end}}" href="{{ .Site.BaseURL | absURL }}">{{ .Name }}</a>
+                <a class="menu-item{{if or ($currentPage.IsMenuCurrent "principal" .) ($currentPage.HasMenuCurrent "principal" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
                 {{ end }}
             </nav>
 
