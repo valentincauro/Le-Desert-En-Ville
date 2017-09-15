@@ -1,10 +1,7 @@
 baseURL = "http://www.ledesertenville.com/"
-relativeURLs = "true"
-canonifyURLs = "true"
 
 theme = "LDEV_theme"
 title = "le Désert en Ville — Espace de Création Hors-sol"
-uglyurls = "true"
 [[menu.crea]]
 [[menu.main]]
 name = "CONTACT"
@@ -20,5 +17,5 @@ url = "/ateliers/"
 weight = 2
 [[menu.main]]
 name = "CRÉATIONS"
-url = "/creations/lettres-vives/"
+url = "/creations/lettres-vives/index.html"
 weight = 1

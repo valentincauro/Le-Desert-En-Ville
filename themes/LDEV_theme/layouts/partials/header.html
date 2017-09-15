@@ -37,12 +37,12 @@
 
         <div>
             <div class="logoterre">
-        	   <a class="logoheader" href="www.ledesertenville.com.s3-website.eu-west-2.amazonaws.com"></a>
+        	   <a class="logoheader" href="{{ .Site.BaseURL"></a>
             </div>
           	<nav class="menu">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.principal }}
-                <a class="menu-item{{if or ($currentPage.IsMenuCurrent "principal" .) ($currentPage.HasMenuCurrent "principal" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+                <a class="menu-item{{if or ($currentPage.IsMenuCurrent "principal" .) ($currentPage.HasMenuCurrent "principal" .) }} active{{end}}" href="{{ .Site.BaseURL | absURL }}">{{ .Name }}</a>
                 {{ end }}
             </nav>
 
