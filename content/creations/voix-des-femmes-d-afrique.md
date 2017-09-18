@@ -19,18 +19,14 @@ Sur quelques mètres carrés, des voix humaines et instrumentales portent la par
 
 <hr>
 
-### Interprétation
+#### Mise en scène et interprétation
 
-#### Juliette Kempf  
+### Juliette Kempf
 
+#### Musique
 
-### Musique
+### Simon Winsé / Musique traditionnel d'Afrique de l'Ouest  
 
-#### Simon Winsé :  
-   musique traditionnelle d'Afrique de l'Ouest  
+#### Ou  
 
-
-ou
-
-#### Toups Bebey :  
- Afriques, jazz et malice
+### Toups Bebey / Afriques, Jazz et Malice
