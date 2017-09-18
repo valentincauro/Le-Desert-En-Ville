@@ -25,7 +25,7 @@ Sur quelques mètres carrés, des voix humaines et instrumentales portent la par
 
 #### Musique
 
-### Simon Winsé / Musique traditionnel d'Afrique de l'Ouest  
+### Simon Winsé / Musique traditionnelle d'Afrique de l'Ouest  
 
 #### Ou  
 
