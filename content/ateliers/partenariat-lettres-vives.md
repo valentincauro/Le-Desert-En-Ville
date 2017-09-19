@@ -1,7 +1,7 @@
 +++
 soustitre = "CHU de Nantes, pôle psychiatrie"
 title = "Partenariat autour des Lettres Vives"
-weight = 3
+weight = 1
 [menu.principal]
 parent = "ateliers"
 weight = 3
