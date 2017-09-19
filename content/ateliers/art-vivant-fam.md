@@ -1,7 +1,7 @@
 +++
 soustitre = "FAM Sainte-Geneviève, Paris"
 title = "Art Vivant au Foyer d'Accueil Médicalisé"
-weight = 2
+weight = 3
 [menu.principal]
 parent = "ateliers"
 weight = 2
