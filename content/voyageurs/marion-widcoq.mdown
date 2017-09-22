@@ -1,0 +1,15 @@
++++
+date = "2017-09-03T21:34:00Z"
+fonction = "Vidéaste"
+title = "Marion Widcoq"
+weight = 5
+[menu.principal]
+parent = "voyageurs"
+url = "/voyageurs/"
+weight = 5
+
++++
+Marion est une jeune vidéaste.
+
+
+[Page Vimeo](https://vimeo.com/marionwidcoq)

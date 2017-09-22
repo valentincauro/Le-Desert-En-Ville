@@ -1,0 +1,14 @@
++++
+date = "2017-09-03T21:34:00Z"
+fonction = "Directeur Artistique"
+title = "Valentin Cauro"
+weight = 6
+[menu.principal]
+parent = "voyageurs"
+url = "/voyageurs/"
+weight = 6
+
++++
+Valentin
+
+[Site](https://www.valentincauro.com) [Behance](https://www.behance.net/keauval) 

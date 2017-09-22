@@ -27,6 +27,19 @@ h1,h2,h3,h4,p{
 	height:100vh;
 }
 
+.copyright{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #353535;
+    color: #9c9c9c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6em;
+}
+
+.copyright a{
+	color:#e2683c;
+}
+
 .home-1:before{
 	content:'';
 	position: absolute;
@@ -952,6 +965,7 @@ color:black;}
 
 
 .voyageur-item{
+	width:100%;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
