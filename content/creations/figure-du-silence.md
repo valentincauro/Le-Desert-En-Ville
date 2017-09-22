@@ -24,9 +24,11 @@ Dans l’épure, s'ouvre la possibilité d’une rencontre au-delà du langage, 
 
 <hr>
 
-#### Interprétation : Juliette Kempf  
+#### Interprétation  
+### Juliette Kempf  
 
 
-#### Costume (en cours de création) : Anouk Albert
+#### Costume (en cours de création)  
+### Anouk Albert
 
 <hr>
