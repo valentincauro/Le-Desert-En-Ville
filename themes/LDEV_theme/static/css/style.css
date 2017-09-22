@@ -17,7 +17,7 @@ h1,h2,h3,h4,p{
 }
 
 
-.keauvalcopyright{
+.valentincauro_copyright{
 	display: none;
 }
 
@@ -873,8 +873,6 @@ a.atelier-item{
 }
 
 .atelier-item img{
-	background-color: #e66c3e;
-	border:1px solid #f1f1f1;
 	transition: all .2s ease;
 }
 

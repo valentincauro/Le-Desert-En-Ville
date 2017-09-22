@@ -1,8 +1,8 @@
 +++
-title = "Ateliers"
+title = "Horizons"
 weight = 2
 [menu.principal]
-identifier = "ateliers"
+identifier = "horizons"
 weight = 2
 
 +++

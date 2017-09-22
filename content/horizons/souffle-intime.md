@@ -4,7 +4,7 @@ svg = "souffleintime"
 title = "Du souffle intime au corps poétique"
 weight = 1
 [menu.principal]
-parent = "ateliers"
+parent = "horizons"
 weight = 1
 
 +++
