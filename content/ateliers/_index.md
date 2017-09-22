@@ -1,5 +1,5 @@
 +++
-title = "Ateliers"
+title = "Horizons Présentation"
 weight = 2
 [menu.principal]
 identifier = "ateliers"
