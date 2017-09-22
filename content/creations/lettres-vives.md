@@ -18,11 +18,12 @@ weight = 1
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
 </blockquote>
 
-**Une actrice**  
-**un musicien**  
-**du papier**  
-**de l’encre**  
-**des voix.**  
+**Un asile**
+**Des mémoires**
+**Lancées dans le vide**
+**Des mots de révolte et de vie**
+**Chantés et dansés**
+
 
 *Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
 
