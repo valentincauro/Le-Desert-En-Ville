@@ -6,15 +6,17 @@ identifier = "about"
 weight = 4
 
 +++
+
+
 ### LE DÉSERT EN VILLE - ASSOCIATION LOI 1901
 
 #### ESPACE DE CRÉATION HORS-SOL
 
-Responsable Légal
+Responsable légal : Elisabeth Varady
 
-Téléphone
+Téléphone de contact : 06 41 68 30 98
 
-Adresse
+Adresse : Mairie de La Possonnière, 49170 La Possonnière
 
 [Télécharger les statuts](static/dl/status.pdf)
 
