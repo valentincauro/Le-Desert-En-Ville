@@ -2,13 +2,15 @@
 date = "2017-09-03T21:34:00Z"
 fonction = "Directeur Artistique"
 title = "Valentin Cauro"
-weight = 6
+weight = 5
 [menu.principal]
 parent = "voyageurs"
 url = "/voyageurs/"
 weight = 6
 
 +++
-Valentin
 
-[Site](https://www.valentincauro.com) [Behance](https://www.behance.net/keauval) 
+
+Valentin démarre la photographie argentique très jeune, puis suit des études de communication visuelle et d’infographisme, où il affine sa relation à la conception et à l’image. Aficionado de la diversité des expériences, il développe ses compétences professionnelles, ainsi que son parcours d’artiste urbain, au contact de différents milieux et cultures. Son travail de graphiste ainsi enrichi, il lui tient à cœur de travailler en lien étroit avec les idées et les concepts que doivent défendre ses images.
+
+[Site](https://www.valentincauro.com) [Behance](https://www.behance.net/keauval)
