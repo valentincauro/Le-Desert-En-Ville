@@ -1,8 +1,9 @@
 +++
-date = "2017-09-03T21:34:00Z"
-fonction = "xxx"
+date = "2017-09-03T21:34:00+00:00"
+draft = true
+fonction = "Réalisation sonore"
 title = "Léon Septavaux"
-weight = 3
+weight = 4
 [menu.principal]
 parent = "voyageurs"
 url = "/voyageurs/"
