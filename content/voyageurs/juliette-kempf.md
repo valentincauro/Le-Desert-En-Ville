@@ -1,5 +1,5 @@
 +++
-fonction = "Fondatrice & Metteure en scène"
+fonction = "Metteure en scène et comédienne "
 title = "Juliette Kempf"
 weight = 1
 [menu.principal]
