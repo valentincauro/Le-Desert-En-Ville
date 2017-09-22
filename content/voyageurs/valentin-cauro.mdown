@@ -1,6 +1,6 @@
 +++
 date = "2017-09-03T21:34:00Z"
-fonction = "Directeur Artistique"
+fonction = "Designer graphique"
 title = "Valentin Cauro"
 weight = 5
 [menu.principal]
