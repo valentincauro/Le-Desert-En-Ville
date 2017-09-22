@@ -18,14 +18,10 @@ weight = 1
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
 </blockquote>
 
-**Un asile**  
-
-**Des mémoires**  
-
-**Lancées dans le vide**  
-
+**Un asile**    
+**Des mémoires**    
+**Écrites dans le vide**    
 **Des mots de révolte et de vie**  
-
 **Chantés et dansés**
 
 
