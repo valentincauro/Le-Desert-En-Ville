@@ -1,7 +1,4 @@
 ---
-pages:
-- voyageurs/isabelle-alta.md
-- voyageurs/leon-septavaux.md
 hide_body: false
 fields:
 - name: date
