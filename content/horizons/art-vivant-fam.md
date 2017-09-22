@@ -3,7 +3,6 @@ soustitre = "FAM Sainte-Geneviève, Paris"
 title = "Art Vivant au Foyer d'Accueil Médicalisé"
 weight = 2
 svg = "fam"
-weight = 3
 [menu.principal]
 parent = "horizons"
 weight = 2

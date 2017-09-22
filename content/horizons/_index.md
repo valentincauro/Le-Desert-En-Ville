@@ -1,9 +1,5 @@
 +++
-<<<<<<< HEAD:content/horizons/_index.md
 title = "Horizons"
-=======
-title = "Horizons Présentation"
->>>>>>> 39d65b6b8b93aff8ba7fce6ae3ff43e0d8657223:content/ateliers/_index.md
 weight = 2
 [menu.principal]
 identifier = "horizons"
