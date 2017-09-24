@@ -54,3 +54,9 @@ Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre 
 Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), Le Silo (réseau Actes-IF), CHU de Nantes, Mairie de La Possonnière (49), Mairie de Mende (48).
 
 [Télécharger le dossier](static/dl/blabla.pdf)
+
+crédits images :  
+réalisation teaser et photos de répétitions :  
+Marion Widcoq  
+photos au CHU de Nantes :  
+Lucile Brosseau
