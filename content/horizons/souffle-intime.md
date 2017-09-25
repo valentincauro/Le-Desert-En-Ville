@@ -1,5 +1,5 @@
 +++
-soustitre = "Hôpital psychiatrique de Saint Alban"
+soustitre = "Hôpital psychiatrique de Saint-Alban, Lozère"
 svg = "souffleintime"
 title = "Du souffle intime au corps poétique"
 weight = 2
