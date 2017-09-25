@@ -1,5 +1,5 @@
 +++
-fonction = "Regard extérieur sur \"Lettres Vives\""
+fonction = "Regard extérieur sur *Lettres Vives*"
 title = "Thylda Barès"
 weight = 3
 [menu.principal]
