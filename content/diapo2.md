@@ -3,4 +3,14 @@ type: diapo2
 title: ''
 
 ---
-La compagnie Le Désert en Ville crée des spectacles et des performances à la croisée des disciplines – théâtre, danse, musique, poésie – et ouvre son horizon à divers partenariats, lors d'actions culturelles ou de collaborations, notamment en lien avec des structures de santé mentale. Sa recherche artistique est un sillon qui se développe et se creuse dans chaque action, que celle-ci soit ou non présentée au public.
+
+
+La Ville, mon chaos.
+
+Le Désert, mon silence, mon harmonie, ma plénitude.
+
+Mes deux amours.
+
+La création comme chemin, entre l’un et l’autre pôles ; la création comme navigation, ou traversée du désert, vers une terre inconnue, vers notre propre dépouillement. Qu’y a-t-il sous les mots, qu’y a-t-il sous le faire, qu’y a-t-il sous l’image ?
+
+Le théâtre se trouve entre l’urgence de dire, et l’urgence de se taire.
