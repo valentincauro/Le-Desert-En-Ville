@@ -680,6 +680,7 @@ a.menucrea-item:hover{
 	background-color: #e66c3e;
 	width: 30%;
 	max-width: 320px;
+	float:left;
 	margin-left:-1.5em;
 	margin-bottom: 2em;
 }
@@ -1283,7 +1284,8 @@ main .ateliernav hr {
 	width: 20%;
 	margin-top: 10px;
 	margin-bottom: 0;
-	margin-left: 85px;
+	float:left;
+	margin-left: 0;
 }
 
 .contact .col50{
