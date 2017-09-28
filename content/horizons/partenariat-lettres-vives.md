@@ -14,13 +14,12 @@ Les patients et les soignants ont été initiés au processus artistique de la c
 
 *Paroles de patients et soignants.*  
 
-*« En lisant ces lettres on a fait revivre la peine et la douleur de certaines personnes [...] on a rendu hommage à des gens qui ont été enfermés, et ça nous aide à prendre la mesure de ce que ça peut être notre esprit ou notre est... privée de liberté...»*  
+*« En lisant ces lettres on a fait revivre la peine et la douleur de certaines personnes [...] on a rendu hommage à des gens qui ont été enfermés, et ça nous aide à prendre la mesure de ce que ça peut être quand notre esprit ou notre âme est... privé de liberté...»*  
 
-*« Des lettres de gens qui sont soumis à la volonté de plus grand qu'eux, d'une institution dans laquelle ils sont tout petits, des enfants qui cherchent à s'exprimer avec poésir, avec philosophie ou... comme ils peuvent.»*  
+*« Des lettres de gens qui sont soumis à la volonté de plus grand qu'eux, d'une institution dans laquelle ils sont tout petits, des enfants qui cherchent à s'exprimer avec poésie, avec philosophie ou... comme ils peuvent.»*  
 
 *« Des voix inattendues, merveilleuses parce que... si nôtres. D'authentiques moments de littérature, et si la littérature peut quelque chose pour nous ici-bas, c'est bien de nous redonner une tendresse, des choses et de la vie.»*  
 
 *« Ce qui a été inattendu chez moi, c'est qu'en lisant ces lettres, j'ai compris que nous-mêmes étions enfermés dans notre propre maladie...»*  
 
 *« Contribuer au lien, à la remise en lien, les liens avec les patients, les liens avec la psychiatrie, les liens entre les soignants, les liens entre les patients, et surtout, surtout, le lien entre les patients et les soignants.»*
-
