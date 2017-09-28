@@ -2,7 +2,7 @@
 soustitre = "Récital poétique/Concert"
 title = "Voix des Femmes d’Afrique"
 url = "/creations/voix-des-femmes-d-afrique/"
-vimeo = 188274638
+vimeo = ""
 [menu.crea]
 [menu.principal]
 parent = "creations"
