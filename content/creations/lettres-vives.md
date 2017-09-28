@@ -25,11 +25,11 @@ weight = 1
 **chantés et dansés**
 
 
-*Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
+*Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, immense complexe on retrouve, parmi 50 000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
 
-Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre vie aux lettres mortes. Saisir ce qu’à travers elles, j’entends aujourd’hui de mon propre enfermement, de ma quête de liberté et de ma quête de l’autre.  
+**Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre vie aux lettres mortes. Saisir ce qu’à travers elles, j’entends aujourd’hui de mon propre enfermement, de ma quête de liberté et de ma quête de l’autre.** 
 
-**Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : enregistrement de lettres du recueil avec les patients et les soignants, servant de base aux bandes sonores.**
+Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : les patients, soignants, cadres de santé, médecins, ont prêté leurs voix aux lettres de Volterra lors d’enregistrements en studio, qui sont montés et intégrés à la mise en scène, comme autant de personnages invisibles.
 
 
 
@@ -57,7 +57,7 @@ Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre 
 
 Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), Le Silo (réseau Actes-IF), CHU de Nantes, mairie de La Possonnière (49), mairie de Mende (48), fondation Allier.
 
-[Télécharger le dossier](/dl/LDEV_LettresVives.pdf)
+[Télécharger le dossier](static/dl/blabla.pdf)
 
  
 réalisation teaser et photos de répétitions :  
