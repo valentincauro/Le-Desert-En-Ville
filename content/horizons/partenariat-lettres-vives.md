@@ -22,4 +22,6 @@ Les patients et les soignants ont été initiés au processus artistique de la c
 
 *« Ce qui a été inattendu chez moi, c'est qu'en lisant ces lettres, j'ai compris que nous-mêmes étions enfermés dans notre propre maladie... »*  
 
-*« Contribuer au lien, à la remise en lien, les liens avec les patients, les liens avec la psychiatrie, les liens entre les soignants, les liens entre les patients, et surtout, surtout, le lien entre les patients et les soignants. »*
+*« Contribuer au lien, à la remise en lien, les liens avec les patients, les liens avec la psychiatrie, les liens entre les soignants, les liens entre les patients, et surtout, surtout, le lien entre les patients et les soignants. »*  
+
+**Travail réalisé avec le soutien de la Fondation Allier.**
