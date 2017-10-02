@@ -3,7 +3,9 @@ type: diapo1
 title: ''
 
 ---
-La Ville, mon chaos.
+
+
+La Ville, mon chaos, mes cris, ma foule.
 
 Le Désert, mon silence, mon harmonie, ma plénitude.
 
