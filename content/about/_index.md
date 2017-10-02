@@ -18,6 +18,5 @@ Téléphone de contact : 06 41 68 30 98
 
 Adresse : Mairie de La Possonnière, 49170 La Possonnière
 
-[Télécharger les statuts](static/dl/status.pdf)
 
-[Page facebook](http://www.facebook.com)
+[Page facebook](https://www.facebook.com/ledesertenville/)
