@@ -10,6 +10,8 @@ parent = "creations"
 weight = 3
 
 +++
+<b>**CRÉATION EN COURS**</b>
+
 <blockquote>
 <p>Une femme, navigant entre présence et absence. Présence de l'être, absence des mots, inspirée de la sculpture, « art vivant silencieux ». <br></p>
 </blockquote>
