@@ -10,7 +10,7 @@ weight = 2
 
 +++
 <blockquote>
-<p>Textes tirés de l'Anthologie <em>Voix de Femmes - poèmes et photographies du monde entier</em>, Editions Turquoise. Créé dans le cadre du Printemps des Poètes 2017.</p>
+<p>Textes tirés de l'anthologie <em>Voix de Femmes - poèmes et photographies du monde entier</em>, Éditions Turquoise. Spectacle créé dans le cadre du Printemps des Poètes 2017.</p>
 </blockquote>
 
 Sur quelques mètres carrés, des voix humaines et instrumentales portent la parole parfois inédite de poétesses du continent africain. Son immédiateté, son quotidien, son mystère. Ce spectacle dépouillé ouvre une fenêtre intime pour évoquer l'ombre et la lumière, la dureté mêlée d'espoir.
