@@ -20,7 +20,7 @@ weight = 3
 
 Dans l’épure, s'ouvre la possibilité d’une rencontre au-delà du langage, et la proposition d’écouter, dans la terre, la glaise, dans la profondeur de cet élément sourd qui nous fonde, le silence. Espace vide sans contour, sans limite.
 
-*Ecoute... le silence ne siège pas sur l'absence de son. Il ne s'oppose pas à l'éclat des voix, aux bruits multiples de l'existence. Il se cherche en creux, au milieu d'eux, dans l'auréole d'une présence, dans un regard versé à un autre regard, sur une ligne scindant l'espace entre mille obstacles qui les séparent. Le silence peut hurler, peut se taire, peut s'écouter. Argile, terre glaise dans les paumes, trace de l'élément sourd, discret. Je plonge dans une peau autre.*
+*Écoute... le silence ne siège pas sur l'absence de son. Il ne s'oppose pas à l'éclat des voix, aux bruits multiples de l'existence. Il se cherche en creux, au milieu d'eux, dans l'auréole d'une présence, dans un regard versé à un autre regard, sur une ligne scindant l'espace entre mille obstacles qui les séparent. Le silence peut hurler, peut se taire, peut s'écouter. Argile, terre glaise dans les paumes, trace de l'élément sourd, discret. Je plonge dans une peau autre.*
 
 
 
