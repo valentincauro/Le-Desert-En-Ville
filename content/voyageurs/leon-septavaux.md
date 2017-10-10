@@ -1,5 +1,5 @@
 +++
-fonction = "Réalisation sonore"
+fonction = "Créateur sonore pour \"Lettres Vives\""
 title = "Léon Septavaux"
 weight = 4
 [menu.principal]
