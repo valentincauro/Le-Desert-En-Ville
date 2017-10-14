@@ -9,6 +9,4 @@ url = "/voyageurs/"
 weight = 5
 
 +++
-
-
 Marion, passionnée par la photographie autant que la peinture, est particulièrement subjuguée par la lumière, le mouvement et le graphisme. Elle étudie la vidéo à l’Université Paris 8, puis multiplie les voyages au cours desquels elle ne cesse de capter et de créer des images. Elle reprend une formation technique à l’ESRA en spécialisation image. Sa collaboration avec Le Désert en Ville et la captation pour le spectacle vivant nourrissent sa recherche constante de création à partir de ce qui nous entoure ou ce dont on rêve.
