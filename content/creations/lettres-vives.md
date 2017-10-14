@@ -58,7 +58,7 @@ Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : les
 
 Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), Le Silo (réseau Actes-IF), CHU de Nantes, mairie de La Possonnière (49), mairie de Mende (48), fondation Allier.
 
-[Télécharger le dossier](static/dl/blabla.pdf)
+[Télécharger le dossier](static/dl/LDEV_LettresVives.pdf)
 
  
 réalisation teaser et photos de répétitions :  
