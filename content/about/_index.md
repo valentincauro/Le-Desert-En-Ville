@@ -10,7 +10,7 @@ weight = 4
 
 #### COMPAGNIE D'ART VIVANT
 
-Licences 2-1105652/3-1105651
+Licences 2-1105652 / 3-1105651
 
 
 Responsable légal : Elisabeth Varady  
