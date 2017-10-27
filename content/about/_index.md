@@ -8,7 +8,10 @@ weight = 4
 +++
 ### LE DÉSERT EN VILLE - ASSOCIATION LOI 1901
 
-#### ESPACE DE CRÉATION HORS-SOL
+#### COMPAGNIE D'ART VIVANT
+
+Licences 2-1105652/3-1105651
+
 
 Responsable légal : Elisabeth Varady  
 
