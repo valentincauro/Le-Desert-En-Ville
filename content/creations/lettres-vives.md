@@ -12,9 +12,7 @@ parent = "creations"
 weight = 1
 
 +++
-
-
-****CRÉATION EN COURS****
+</b>**CRÉATION EN COURS**</b>
 
 <blockquote>
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
@@ -62,9 +60,7 @@ Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), 
 [Télécharger le dossier](http://www.ledesertenville.com/dl/LDEV_LettresVives.pdf)
 
 réalisation teaser et photos de répétitions :
-
 Marion Widcoq
 
 photos au CHU de Nantes :
-
 Lucile Brosseau
