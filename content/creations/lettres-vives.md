@@ -18,11 +18,11 @@ weight = 1
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
 </blockquote>
 
-**Un asile**
-**Des mémoires**
-**écrites dans le vide**
-**Des mots de révolte et de vie**
-**chantés et dansés**
+**Un asile**  
+**Des mémoires**  
+**écrites dans le vide**  
+**Des mots de révolte et de vie**  
+**chantés et dansés**  
 
 *Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, Asile San Girolamo, véritable ville
 dans la ville, on retrouve, parmi 50000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication.*
