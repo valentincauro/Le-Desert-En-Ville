@@ -58,5 +58,5 @@ Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), 
 réalisation teaser et photos de répétitions :
 Marion Widcoq
 
-photos au CHU de Nantes :
+photos au CHU de Nantes :  
 Lucile Brosseau
