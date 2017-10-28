@@ -19,13 +19,9 @@ weight = 1
 </blockquote>
 
 **Un asile**
-
 **Des mémoires**
-
 **écrites dans le vide**
-
 **Des mots de révolte et de vie**
-
 **chantés et dansés**
 
 *Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, Asile San Girolamo, véritable ville
