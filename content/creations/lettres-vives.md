@@ -41,7 +41,7 @@ Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : les
 
 ### Simon Winsé
 
-#### Regard
+#### Regard extérieur
 
 ### Thylda Barès
 
