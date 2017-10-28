@@ -45,7 +45,7 @@ Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : les
 
 ### Thylda Barès
 
-#### Réalisation sonore
+#### Création sonore
 
 ### Léon Septavaux
 
