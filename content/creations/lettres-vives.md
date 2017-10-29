@@ -12,7 +12,7 @@ parent = "creations"
 weight = 1
 
 +++
-</b>**CRÉATION EN COURS**</b>
+<b>**CRÉATION EN COURS**</b>
 
 <blockquote>
 <p>D’après <em>Lettres mortes, correspondance censurée de la nef des fous, Hôpital de Volterra 1900-1980</em>, Éditions Encre et Lumière.</p>
