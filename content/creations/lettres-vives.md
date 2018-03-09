@@ -57,4 +57,19 @@ réalisation teaser et photos de répétitions :
 Marion Widcoq
 
 photos au CHU de Nantes :  
-Lucile Brosseau
+Lucile Brosseau  
+
+
+**DATES**
+
+16 février 2018  
+Sortie de résidence, Mende
+
+23 et 24 février 2018  
+Théâtre de la Ruche, Nantes
+
+10 mars 2018  
+Centre Jean-Carmet, festival Ça Chauffe, Mûrs-Erigné
+
+Août 2018  
+Voyage à Volterra - préparation de l'exposition photographique
