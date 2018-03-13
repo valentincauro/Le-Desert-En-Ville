@@ -768,9 +768,7 @@ a.menucrea-item:hover{
 }
 
 .sidebar p img{
-	padding:10px;
-	background-color:#f3f3f3;
-	margin:3em;
+	margin:3em 0;
 }
 
 .sidebar a:before{
