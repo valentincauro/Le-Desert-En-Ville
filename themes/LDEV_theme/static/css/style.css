@@ -788,10 +788,8 @@ a.menucrea-item:hover{
 }
 
 .content{
-	float:right;
-	vertical-align: top;
-	margin-left: 2vw;
-	width: 70%;
+	margin: 3em 0;
+	width: 100%;
 	display: inline-block;
 	padding: 10px;
 }

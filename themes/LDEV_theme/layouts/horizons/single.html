@@ -16,18 +16,20 @@
 					<hr>
 				</div>
 
-				<div class="sidebar">
-
-				{{ .Content }}
-
-			</div>
-
 			<div class="content">
 
 				{{ if .Params.svg }}
 					{{ partial .Params.svg }}
 				{{ end }}
+			</div>
+
+				<div class="sidebar">
+
+					{{ .Content }}
+
 				</div>
+
+
 		</div>
 		</main>
 
