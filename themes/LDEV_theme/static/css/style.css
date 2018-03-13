@@ -462,14 +462,14 @@ header{
 	position: relative;
 	display: inline-block;
 	text-align: right;
-	margin-left: 12vw;
+	margin-left: 10%;
 }
 
 .menu-item{
 	text-transform: uppercase;
 	vertical-align: top;
 	display: inline-block;
-	padding: 40px 20px;
+	padding: 40px 40px;
 }
 
 a.menu-item:before{
@@ -492,13 +492,14 @@ a.menu-item {
 	text-decoration: none;
 	color: #c5c5c5;
 	transition: .2s;
-	margin:0px 25px;
+	margin:0;
 	border:1px solid transparent;
 }
 
 a.menu-item:hover {
 	color: #ffffff;
 	transition: .2s ease;
+	background-color:#3C3C3C;
 /*	border-bottom: 1px solid #C64F24;
 	transition: border 1s ease;*/
 }
@@ -1136,6 +1137,7 @@ color:black;}
 
 .tete img{
 	opacity: .6;
+	width:100%;
 	object-fit: cover;
 	object-position: center;
 }
