@@ -1,7 +1,7 @@
 +++
 soustitre = "FAM Sainte-Geneviève, Paris"
 svg = "fam"
-title = "Dans la malle aux couleurs"
+title = "Elle court, elle court, la forêt"
 weight = 2
 [menu.principal]
 parent = "horizons"
