@@ -3,13 +3,5 @@ type: diapo1
 title: ''
 
 ---
-La Ville, mon chaos, mes cris, ma foule.
+Jeune compagnie basée en Pays de la Loire, Le Désert en Ville développe un théâtre éclectique dont les créations  mêlent documents du réel, poésie, musique, danse, et recherches autour  de l'acteur-créateur. Elle crée des pièces originales et des  performances, et mène différentes actions et médiations culturelles étroitement liées à son projet de création. Elle a pour ambition de  donner de nouvelles résonances à l'art vivant, en ne cessant d'interroger l'âme humaine et les formes artistiques pouvant témoigner de ses explorations.
 
-Le Désert, mon silence, mon harmonie, ma plénitude.
-
-Mes deux amours.
-
-La création comme chemin, entre l’un et l’autre pôles ;
-la création comme navigation, ou traversée du désert, vers une terre inconnue, vers notre propre dépouillement. Qu’y a-t-il sous les mots, qu’y a-t-il sous le faire, qu’y a-t-il sous l’image ?
-
-Le théâtre se trouve entre l’urgence de dire, et l’urgence de se taire.
