@@ -2,6 +2,7 @@
 pages:
 - creations/marcher-sur-l-or-du-temps.md
 hide_body: false
+is_partial: false
 fields:
 - name: date
   label: Date
