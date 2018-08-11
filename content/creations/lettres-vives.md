@@ -3,7 +3,7 @@ lieu = "Élan poétique inspiré du réel"
 soustitre = "Élan poétique inspiré du réel"
 title = "Lettres Vives"
 url = "/creations/lettres-vives/"
-vimeo = 250247148
+vimeo = "https://vimeo.com/284539173"
 weight = 1
 [menu.crea]
 weight = 1
