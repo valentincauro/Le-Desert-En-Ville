@@ -5,18 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/horizons
-  label: Horizons
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/voyageurs
-  label: Voyageurs
+  path: content/about
+  label: About
   create: all
   match: "**/*"
 - type: directory
@@ -25,10 +15,20 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/about
-  label: About
+  path: content/voyageurs
+  label: Voyageurs
   create: all
   match: "**/*"
+- type: directory
+  path: content/horizons
+  label: Horizons
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
