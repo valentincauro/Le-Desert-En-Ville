@@ -23,6 +23,7 @@ weight = 1
 ### **Des mots de révolte et de vie**
 
 ### **chantés et dansés**
+
 _Italie, 1978, loi Basaglia. Fermeture de tous les hôpitaux psychiatriques. À Volterra, Asile San Girolamo, véritable ville dans la ville, on retrouve, parmi 50000 dossiers cliniques, des milliers de lettres non envoyées à leurs destinataires, retenues, censurées. Milliers de voix retentissant contre les murs de l’administration asilaire. Retrouvées, déterrées, rendues à l’existence par la publication._
 
 **Mots, musique et corps s’animent pour rendre mémoire, rendre hommage, rendre vie aux lettres mortes. Saisir ce qu’à travers elles, j’entends aujourd’hui de mon propre enfermement, de ma quête de liberté et de ma quête de l’autre.**
@@ -75,7 +76,7 @@ Spectacle créé en partenariat avec le pôle psychiatrie du CHU de Nantes : les
 
 Soutiens et accueils en résidence de création : La Voix du Griot (Les Lilas), Le Silo (réseau Actes-IF), CHU de Nantes, mairie de La Possonnière (49), mairie de Mende (48), fondation Allier.
 
-[LETTRES VIVES - DOSSIER ARTISTIQUE.pdf](/uploads/LETTRES VIVES - DOSSIER ARTISTIQUE.pdf "En savoir plus : télécharger le dossier artistique complet")
+\[LETTRES VIVES - DOSSIER ARTISTIQUE.pdf\](file:///C:/Users/ASUS/Desktop/LETTRES%20VIVES/LETTRES%20VIVES%20-%20DOSSIER%20ARTISTIQUE.pdf "En savoir plus : télécharger le dossier artistique complet")
 
 crédits images : Lucile Brosseau
 
@@ -95,8 +96,11 @@ crédits images : Lucile Brosseau
 
 #### Août 2018
 
-### Voyage à Volterra - préparation de l'exposition photographique
+### Voyage à Volterra
 
 #### 16 octobre 2018
 
 ### Salle Vasse, Nantes
+
+14h30 et 20h30  
+Vernissage de l'installation _Réponse(s)_
