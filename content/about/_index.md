@@ -12,12 +12,12 @@ weight = 4
 
 Licences 2-1105652 / 3-1105651
 
-Responsable légal : Elisabeth Varady 
+Responsable légal : Elisabeth Varady
 
 Relation presse et diffusion : Isabelle Alta
 
-Téléphone de contact : 06 41 68 30 98
-
-Adresse : Mairie de La Possonnière, 49170 La Possonnière
+Adresse : Maison des Confluences   
+4 place du Muguet Nantais  
+44200 Nantes
 
 [Page facebook](https://www.facebook.com/ledesertenville/)
