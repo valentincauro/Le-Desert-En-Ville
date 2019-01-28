@@ -1,5 +1,6 @@
 +++
 soustitre = "Récital poétique et musical"
+draft = true
 title = "Voix des Femmes d’Afrique"
 url = "/creations/voix-des-femmes-d-afrique/"
 vimeo = ""
