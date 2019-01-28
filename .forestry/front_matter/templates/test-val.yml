@@ -1,7 +1,0 @@
----
-label: Test Val
-hide_body: false
-is_partial: false
-fields:
-- type: image_gallery
-- type: textarea
